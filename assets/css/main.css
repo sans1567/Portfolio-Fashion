@@ -125,6 +125,10 @@ select {
   }
 }
 @media screen and (max-width: 768px) {
+  .header-logo a {
+    font-size: 20px;
+    vertical-align: middle;
+  }
   .header-nav__list {
     display: none;
   }
