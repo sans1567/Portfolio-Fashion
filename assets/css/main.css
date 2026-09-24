@@ -132,5 +132,141 @@ select {
     display: block;
   }
 }
+.footer {
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+}
+
+.footer-inner {
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 160px;
+  position: relative;
+}
+
+.footer-logo {
+  width: 523px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-logo a {
+  font-size: 28px;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+}
+
+.footer-nav {
+  margin-top: 40px;
+}
+
+.footer-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-nav__list li h2 {
+  font-weight: normal;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+}
+
+.footer-nav__list li {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav__list li:nth-child(2) {
+  margin-left: 40px;
+}
+
+.footer-nav__list li:nth-child(3) {
+  margin-left: 40px;
+}
+
+.footer-nav__list li a {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.footer-nav__list li a img {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+}
+
+.copylight {
+  margin-top: 160px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+.copylight small {
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer-logo {
+    width: 250px;
+    margin-top: 15px;
+  }
+  .footer-nav__list {
+    flex-direction: column;
+  }
+  .footer-nav__list li h2 {
+    width: 250px;
+    margin-bottom: 20px;
+    padding-right: 40px;
+    border-bottom: 1px solid #ffffff;
+    position: relative;
+  }
+  .footer-nav__list li h2::before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .footer-nav__list li h2::after {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+  }
+  .footer-nav__list li:nth-child(2) {
+    margin-left: 0px;
+  }
+  .footer-nav__list li:nth-child(3) {
+    margin-left: 0px;
+  }
+  .footer-nav__list li a {
+    display: none;
+  }
+}
+@media screen and (max-width: 395px) {
+  .footer-inner {
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
