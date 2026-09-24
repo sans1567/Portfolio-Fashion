@@ -2,6 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio-Fashion</title>
         <?php wp_head();?>
     </head>
@@ -11,7 +12,7 @@
         <header class="header">
             <div class="header-inner">
                 <div class="search-icon">
-                    <?php //検索アイコン//?>
+                    <img src="<?php echo get_template_directory_uri() . "/assets/images/search-icon.svg"?>" alt="検索アイコン">
                 </div>
                 <h1 class="header-logo">
                     <a href="<?php home_url()?>>">Portfolio-Fashion</a>
@@ -23,6 +24,12 @@
                         <li><a href="">CONTACT</a></li>
                     </ul>
                 </nav>
+                <?php  //ハンバーガーメニュー?>
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </header>
     </body>
