@@ -286,5 +286,43 @@ select {
     flex-direction: column;
   }
 }
+.main {
+  padding-top: 45px;
+}
+
+.main-visual__inner {
+  width: 100%;
+  display: flex;
+}
+
+.main-visual__item--collection {
+  position: relative;
+}
+
+.main-visual__title {
+  position: absolute;
+  bottom: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 28px;
+  font-weight: normal;
+  color: #ffffff;
+  letter-spacing: 0.05rem;
+}
+
+.main-visual__link {
+  position: absolute;
+  padding: 10px 32px;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  letter-spacing: 0.05rem;
+  border: 1px solid #333333;
+}
+
+.main-visual__item--essential {
+  position: relative;
+}
 
 /*# sourceMappingURL=main.css.map */
