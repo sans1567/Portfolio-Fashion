@@ -91,11 +91,72 @@
             </div>
 
             <div class="main-collection__essential-list">
-            
+                <h2 class="main-collection__essential-list__title">
+                    ESSENTIAL
+                </h2>
+                <p class="main-collection__essential-list__text">
+                    定番コレクション
+                </p>
+
+                <div class="main-collection__essential-list__inner">
+                    <div class="main-collection__essential-list__card">
+                        <div class="main-collection__essential-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce1.jpg"?>" alt="ベージュのコート着た女性">
+                        </div>
+                        <p class="main-collection__essential-list__card-text">
+                            ESSENTIAL&nbsp;OUTER
+                        </p>
+                    </div>
+                    <div class="main-collection__essential-list__card">
+                        <div class="main-collection__essential-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce2.jpg"?>" alt="白シャツを着た女性">
+                        </div>
+                        <p class="main-collection__essential-list__card-text">
+                            ESSENTIAL&nbsp;TOP
+                        </p>
+                    </div>
+                    <div class="main-collection__essential-list__card">
+                        <div class="main-collection__essential-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce3.jpg"?>" alt="グレーのパンツとサングラスをかけている女性">
+                        </div>
+                        <p class="main-collection__essential-list__card-text">
+                            ESSENTIAL&nbsp;BOTTOMS
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <div class="main-collection__recommended-list">
-                
+                <h2 class="main-collection__recommended-list__title">
+                    RECOMMENDED
+                </h2>
+                <p class="main-collection__recommended-list__text">
+                    おすすめ商品
+                </p>
+
+                <div class="main-collection__recommended-list__inner">
+                    <div class="main-collection__recommended-list__card">
+                        <div class="main-collection__recommended-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr1.jpg"?>" alt="ベージュのコート着た女性">
+                        </div>
+                        <p class="main-collection__recommended-list__card-text--primary">Relaxed Tailored Coat</p>
+                        <p class="main-collection__recommended-list__card-text--secondary">¥22,800</p>
+                    </div>
+                    <div class="main-collection__recommended-list__card">
+                        <div class="main-collection__recommended-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr2.jpg"?>" alt="白シャツを着た女性">
+                        </div>
+                        <p class="main-collection__recommended-list__card-text--primary">Essential Camisole</p>
+                        <p class="main-collection__recommended-list__card-text--secondary">¥7,900</p>
+                    </div>
+                    <div class="main-collection__recommended-list__card">
+                        <div class="main-collection__recommended-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr3.jpg"?>" alt="グレーのパンツとサングラスをかけている女性">
+                        </div>
+                        <p class="main-collection__recommended-list__card-text--primary">Wide Tapered Slacks</p>
+                        <p class="main-collection__recommended-list__card-text--secondary">¥12,800</p>
+                    </div>
+                </div>
             </div>
         </section>
 
