@@ -102,26 +102,35 @@
                     <div class="main-collection__essential-list__card">
                         <div class="main-collection__essential-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce1.jpg"?>" alt="ベージュのコート着た女性">
+                            <h3 class="main-collection__essential-list__card-text">
+                                ESSENTIAL&nbsp;OUTER
+                            </h3>
                         </div>
-                        <p class="main-collection__essential-list__card-text">
-                            ESSENTIAL&nbsp;OUTER
-                        </p>
+                        <a class="main-collection__essential-list__link" href="#">
+                            Coming Soon
+                        </a>
                     </div>
                     <div class="main-collection__essential-list__card">
                         <div class="main-collection__essential-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce2.jpg"?>" alt="白シャツを着た女性">
+                            <h3 class="main-collection__essential-list__card-text">
+                                ESSENTIAL&nbsp;TOP
+                            </h3>
                         </div>
-                        <p class="main-collection__essential-list__card-text">
-                            ESSENTIAL&nbsp;TOP
-                        </p>
+                        <a class="main-collection__essential-list__link" href="#">
+                            Coming Soon
+                        </a>
                     </div>
                     <div class="main-collection__essential-list__card">
                         <div class="main-collection__essential-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce3.jpg"?>" alt="グレーのパンツとサングラスをかけている女性">
+                            <h3 class="main-collection__essential-list__card-text">
+                                ESSENTIAL&nbsp;BOTTOMS
+                            </h3>
                         </div>
-                        <p class="main-collection__essential-list__card-text">
-                            ESSENTIAL&nbsp;BOTTOMS
-                        </p>
+                        <a class="main-collection__essential-list__link" href="#">
+                            Coming Soon
+                        </a>
                     </div>
                 </div>
             </div>
