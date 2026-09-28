@@ -24,11 +24,27 @@
                         <li><a href="">CONTACT</a></li>
                     </ul>
                 </nav>
-                <?php  //ハンバーガーメニュー?>
-                <div class="hamburger-menu">
+                <?php  //ハンバーガーボタン?>
+                <div class="hamburger-button">
                     <span></span>
                     <span></span>
                     <span></span>
+                </div>
+                <?php  //ハンバーガーメニュークローズアイコン?>
+                <div class="close-button">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <?php  //ハンバーガーメニュー?>
+            <div class="hamburger-menu">
+                <div class="hamburger-menu__inner">
+                    <ul class="hamburger-menu__list">
+                        <li><img src="<?php echo get_template_directory_uri() . "/assets/images/search-icon.svg"?>" alt="検索アイコン"><input type="text" name="serchItem" placeholder="アイテムを検索する"></li>
+                        <li><a href="#">COLLECTION</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
                 </div>
             </div>
         </header>
