@@ -37,7 +37,7 @@
     color: #ffffff;
     letter-spacing: 0.05rem;
 
-    background-color: rgba(0,0,0,0.1);
+    border-bottom: 1px solid #ffffff;
 }
 
 .main-visual__link {
@@ -247,37 +247,60 @@
     margin-top: 40px;
 
     display: flex;
-    flex-direction: row;
-    column-gap: 20px;
+    flex-direction: column;
 }
 
 .main-collection__essential-list__card {
     cursor: pointer;
 }
 
-.main-collection__essential-list__card:hover {
-    background-color: #333333;
+.main-collection__essential-list__card:nth-child(2) {
+    margin-top: 120px;
+}
+
+.main-collection__essential-list__card:nth-child(3) {
+    margin-top: 120px;
+}
+
+.main-collection__essential-list__image {
+    justify-self: center;
 }
 
 .main-collection__essential-list__card-text {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
 
     letter-spacing: 0.05rem;
+    font-weight: normal;
     color: #ffffff;
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .main-collection__essential-list__card-text {
-        font-size: 10px;
-    }
+.main-collection__essential-list__link {
+    width: 210px;
+    height: 50px;
+
+    margin: 20px auto 0px;
+
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    border: 1px solid #333333;
+
+    background-color: rgba(0,0,0,0.1);
+
+    display: grid;
+    place-items: center;
+}
+
+.main-collection__essential-list__link:hover {
+    background-color: #eeeeee;
+    opacity: 0.6;
+    color: #333333;
 }
 
 @media screen and (max-width: 395px) {
-    .main-collection__essential-list__inner {
-        flex-direction: column;
-        row-gap: 20px;
+    .main-collection__essential-list__image {
+        width: 100%;
     }
 
     .main-collection__essential-list__image img {
@@ -287,7 +310,7 @@
 }
 
 .main-collection__recommended-list {
-    margin-top: 40px;
+    margin-top: 120px;
 }
 
 .main-collection__recommended-list__title {
@@ -361,5 +384,9 @@
     .main-collection__recommended-list__image img {
         width: 100%;
         object-fit: cover;
+    }
+
+    .main-collection__recommended-list__card-text--secondary {
+        padding-bottom: 20px;
     }
 }
