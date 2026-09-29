@@ -42,14 +42,14 @@
   gap: 20px;
 }
 
-.header-nav__list li:hover {
-  border-bottom: 1px solid #ffffff;
-}
-
 .header-nav__list li a {
   font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
+}
+
+.header-nav__list li a:hover {
+  border-bottom: 1px solid #ffffff;
 }
 
 .hamburger-button {
