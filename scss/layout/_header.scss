@@ -62,6 +62,10 @@
   transform: translateY(-50%);
 }
 
+.hamburger-button:hover {
+  cursor: pointer;
+}
+
 .hamburger-button span:nth-child(1) {
   width: 100%;
   height: 2px;
@@ -124,17 +128,18 @@
 
   transform: rotate(-135deg);
 }
-//一旦display: none;
+
 .hamburger-menu {
-  display: fixed;
+  position: absolute;
   z-index: 3;
 
-  top: 80px;
+  top: 45px;
+  right: 100vw;
 
   width: 100%;
   height: 100vh;
 
-  display: none;
+  background-color: rgba(0,0,0,0.8);
 }
 
 .hamburger-menu__list {
