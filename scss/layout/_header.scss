@@ -92,12 +92,15 @@
 
 .close-button {
   position: absolute;
+  z-index: 3;
 
   top: 45%;
   left: 20px;
 
   width: 25px;
   height: 20px;
+
+  display: none;
 }
 
 .close-button span:nth-child(1) {
@@ -121,14 +124,17 @@
 
   transform: rotate(-135deg);
 }
-
+//一旦display: none;
 .hamburger-menu {
   display: fixed;
+  z-index: 3;
+
+  top: 80px;
 
   width: 100%;
   height: 100vh;
 
-  background-color: rgba(0,0,0,0.1);
+  display: none;
 }
 
 .hamburger-menu__list {
@@ -158,22 +164,21 @@
   height: 26px;
 
   margin-left: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
 
   outline: none;
 
   background-color: #000000;
 
-  border: none;
+  border: 1px solid #ffffff;
 
   color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
   .hamburger-button {
-    display: none;
-  }
-
-  .close-button {
     display: none;
   }
 }
@@ -193,10 +198,6 @@
   }
 
   .hamburger-button {
-    display: block;
-  }
-
-  .hamburger-menu {
     display: block;
   }
 }
