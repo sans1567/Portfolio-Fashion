@@ -670,15 +670,12 @@ select {
 
 .main-collection__recommended-list__card-text--primary {
   padding-top: 10px;
-  padding-left: 20px;
   letter-spacing: 0.05rem;
   color: #ffffff;
   text-align: center;
 }
 
 .main-collection__recommended-list__card-text--secondary {
-  padding-top: 0px;
-  padding-left: 20px;
   padding-bottom: 10px;
   letter-spacing: 0.05rem;
   color: #ffffff;
