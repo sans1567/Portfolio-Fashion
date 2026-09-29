@@ -14,20 +14,20 @@
                 <ul class="footer-nav__list">
                     <li>
                         <h2>COLLECTION</h2>
-                        <a href="#">OUTER</a>
-                        <a href="#">TOPS</a>
-                        <a href="#">BOTTOMS</a>
+                        <a href="#"><span>◻︎OUTER</span></a>
+                        <a href="#"><span>◻︎TOPS</span></a>
+                        <a href="#"><span>◻︎BOTTOMS</span></a>
                     </li>
                     <li>
                         <h2>INFOMATION</h2>
-                        <a href="#">NEWS</a>
-                        <a href="#">CONTACT</a>
-                        <a href="#">ABOUT</a>
+                        <a href="#"><span>◻︎NEWS</span></a>
+                        <a href="#"><span>◻︎CONTACT</span></a>
+                        <a href="#"><span>◻︎ABOUT</span></a>
                     </li>
                     <li>
                         <h2>FOLLOW</h2>
-                        <a href="#">Instagram</a>
-                        <a href="#">X</a>
+                        <a href="#"><span>◻︎Instagram</span></a>
+                        <a href="#"><span>◻︎X</span></a>
                     </li>
                 </ul>
             </nav>
