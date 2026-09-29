@@ -13,7 +13,9 @@
 
 .footer-logo {
     width: 523px;
+
     margin: 0 auto;
+
     text-align: left;
 }
 
@@ -54,13 +56,13 @@
 
 .footer-nav__list li a {
     margin-top: 20px;
+
+    letter-spacing: 0.05rem;
     color: #ffffff;
 }
 
-.footer-nav__list li a img {
-    width: 20px;
-    height: 20px;
-    background-color: #ffffff;
+.footer-nav__list li a span:hover {
+    border-bottom: 1px solid #ffffff;
 }
 
 .copylight {
@@ -95,6 +97,10 @@
 
     .footer-nav__list li h2 {
         font-size: 16px;
+    }
+
+    .footer-nav__list li h2:hover {
+        cursor: pointer;
     }
 
     .footer-logo a {
