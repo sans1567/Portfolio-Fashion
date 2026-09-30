@@ -169,6 +169,38 @@
             </div>
         </section>
 
+        <section class="main-news">
+            <h2 class="main-news__title">
+                NEWS
+            </h2>
+            <p class="main-news__text">
+                最新ニュースと更新情報
+            </p>
+            <ul class="main-news__list">
+                <li class="main-news__card">
+                    <div class="main-news__image">
+                        <img src="<?php  echo get_template_directory_uri() . "/assets/images/news1.jpg"?>" alt="街中を歩く3人の女性">
+                    </div>
+                    <p class="main-news__card-text--primary">2026.06.01</p>
+                    <p class="main-news__card-text--secondary">SPRING COLLECTION 2026</p>
+                </li>
+                <li class="main-news__card">
+                    <div class="main-news__image">
+                        <img src="<?php  echo get_template_directory_uri() . "/assets/images/news2.jpg"?>" alt="白い服を着た女性があぐらをかいている">
+                    </div>
+                    <p class="main-news__card-text--primary">2026.05.25</p>
+                    <p class="main-news__card-text--secondary">NEW OUTER ARRIVALS</p>
+                </li>
+                <li class="main-news__card">
+                    <div class="main-news__image">
+                        <img src="<?php  echo get_template_directory_uri() . "/assets/images/news3.jpg"?>" alt="棒にたくさんの服がかかっている">
+                    </div>
+                    <p class="main-news__card-text--primary">2026.05.20</p>
+                    <p class="main-news__card-text--secondary">SUMMER ESSENTIALS</p>
+                </li>
+            </ul>
+        </section>
+
     </div> 
 </main>
 
