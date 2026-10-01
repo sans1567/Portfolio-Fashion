@@ -201,6 +201,33 @@
             </ul>
         </section>
 
+        <section class="main-about">
+            <div class="main-about__mainContainer">
+                <h2 class="main-about__title">
+                    ABOUT
+                </h2>
+                <p class="main-about__text">
+                    このサイトについて
+                </p>
+                <p class="main-about__mainContainer__text">
+                    Simplicity Creates Style<br>
+                    シンプルが、個性を作る。
+                </p>
+            </div>
+            <div class="main-about__subContainer">
+                <p class="main-about__subContainer__text">
+                    20〜30代の女性をターゲットに<br>
+                    ミニマルで洗練された世界観を表現した<br>
+                    ファッションブランドサイトです。<br>
+                    モノトーンを基調に、余白や写真の見せ方を意識し、<br>
+                    商品そのものが引き立つシンプルなデザインに仕上げました。
+                </p>
+                <a href="#" class="main-about__link">
+                    View Collection
+                </a>
+            </div>
+            <div class="main-about__bar"></div> 
+        </section>
     </div> 
 </main>
 
