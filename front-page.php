@@ -102,35 +102,50 @@
                     <div class="main-collection__essential-list__card">
                         <div class="main-collection__essential-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce1.jpg"?>" alt="ベージュのコート着た女性">
-                            <h3 class="main-collection__essential-list__card-text">
-                                ESSENTIAL&nbsp;OUTER
-                            </h3>
                         </div>
-                        <a class="main-collection__essential-list__link" href="#">
-                            Coming Soon
-                        </a>
+                        <div class="main-collection__essentitle-list__headiing">
+                            <h3 class="main-collection__essential-list__card-title">
+                                ESSENTIAL OUTER
+                            </h3>
+                            <p class="main-collection__essential-list__card-text">
+                                定番アウター
+                            </p>
+                            <a class="main-collection__essential-list__link" href="#">
+                                Coming Soon
+                            </a>
+                        </div>
                     </div>
                     <div class="main-collection__essential-list__card">
                         <div class="main-collection__essential-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce2.jpg"?>" alt="白シャツを着た女性">
-                            <h3 class="main-collection__essential-list__card-text">
-                                ESSENTIAL&nbsp;TOP
-                            </h3>
                         </div>
-                        <a class="main-collection__essential-list__link" href="#">
-                            Coming Soon
-                        </a>
+                        <div class="main-collection__essentitle-list__headiing">
+                            <h3 class="main-collection__essential-list__card-title">
+                                ESSENTIAL TOP
+                            </h3>
+                            <p class="main-collection__essential-list__card-text">
+                                定番トップス
+                            </p>
+                            <a class="main-collection__essential-list__link" href="#">
+                                Coming Soon
+                            </a>
+                        </div>
                     </div>
                     <div class="main-collection__essential-list__card">
                         <div class="main-collection__essential-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mce3.jpg"?>" alt="グレーのパンツとサングラスをかけている女性">
-                            <h3 class="main-collection__essential-list__card-text">
-                                ESSENTIAL&nbsp;BOTTOMS
-                            </h3>
                         </div>
-                        <a class="main-collection__essential-list__link" href="#">
-                            Coming Soon
-                        </a>
+                        <div class="main-collection__essentitle-list__headiing">
+                            <h3 class="main-collection__essential-list__card-title">
+                                ESSENTIAL BOTTOMS
+                            </h3>
+                            <p class="main-collection__essential-list__card-text">
+                                定番ボトムス
+                            </p>
+                            <a class="main-collection__essential-list__link" href="#">
+                                Coming Soon
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

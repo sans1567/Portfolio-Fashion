@@ -467,44 +467,35 @@ select {
 
 .main-collection__newProduct-list {
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
 }
 
 .main-collection__newProduct-list__card {
-  padding-left: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  column-gap: 40px;
+  width: 600px;
 }
 
-.main-collection__newProduct-list__card:nth-child(2) {
-  padding-right: 20px;
-  margin-top: 120px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.main-collection__newProduct-list__card:nth-child(3) {
-  margin-top: 120px;
+.main-collection__newProduct-list__image {
+  width: 100%;
+  height: 100%;
 }
 
 .main-collection__newProduct-list__image img {
+  width: 100%;
   object-fit: cover;
 }
 
-.main-collection__newProduct-list__heading {
-  padding-top: 20px;
-}
-
 .main-collection__newProduct-list__title {
-  margin-top: 120px;
+  margin-top: 20px;
   font-weight: normal;
   letter-spacing: 0.05rem;
   color: #ffffff;
 }
 
 .main-collection__newProduct-list__text {
-  margin-top: 120px;
+  margin-top: 20px;
   width: 100%;
   letter-spacing: 0.05rem;
   color: #ffffff;
@@ -513,7 +504,7 @@ select {
 .main-collection__newProduct-list__link {
   width: 210px;
   height: 50px;
-  margin-top: 120px;
+  margin-top: 40px;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.05rem;
@@ -539,22 +530,16 @@ select {
     text-align: center;
   }
   .main-collection__newProduct-list__card {
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .main-collection__newProduct-list__card:nth-child(2) {
     flex-direction: column;
     align-items: center;
   }
-  .main-collection__newProduct-list__title {
-    margin-top: 20px;
-  }
   .main-collection__newProduct-list__text {
-    margin-top: 40px;
     font-size: 12px;
-  }
-  .main-collection__newProduct-list__link {
-    margin-top: 40px;
   }
 }
 @media screen and (max-width: 395px) {
@@ -581,41 +566,61 @@ select {
 }
 
 .main-collection__essential-list__inner {
+  margin-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
 }
 
 .main-collection__essential-list__card {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
   cursor: pointer;
 }
 
 .main-collection__essential-list__card:nth-child(2) {
-  margin-top: 120px;
-}
-
-.main-collection__essential-list__card:nth-child(3) {
-  margin-top: 120px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .main-collection__essential-list__image {
-  justify-self: center;
+  width: 50%;
+  height: 100%;
 }
 
-.main-collection__essential-list__card-text {
-  padding-top: 20px;
+.main-collection__essential-list__image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-collection__essentitle-list__headiing {
+  width: 50%;
+}
+
+.main-collection__essential-list__card-title {
+  margin-top: 120px;
   letter-spacing: 0.05rem;
   font-weight: normal;
   color: #ffffff;
   text-align: center;
 }
 
+.main-collection__essential-list__card-text {
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+}
+
 .main-collection__essential-list__link {
   width: 210px;
   height: 50px;
-  margin: 20px auto 0px;
+  margin: 40px auto 0px;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.05rem;
@@ -631,10 +636,30 @@ select {
   color: #333333;
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 768px) {
+  .main-collection__essential-list__card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-collection__essential-list__card:nth-child(2) {
+    flex-direction: column;
+  }
   .main-collection__essential-list__image {
     width: 100%;
   }
+  .main-collection__essentitle-list__headiing {
+    width: 100%;
+  }
+  .main-collection__essential-list__card-title {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .main-collection__essential-list__card-text {
+    font-size: 10px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 395px) {
   .main-collection__essential-list__image img {
     width: 100%;
     object-fit: cover;
