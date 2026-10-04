@@ -416,6 +416,7 @@ select {
   bottom: 140px;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 12px;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.05rem;
@@ -497,6 +498,7 @@ select {
 .main-collection__newProduct-list__text {
   margin-top: 20px;
   width: 100%;
+  font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
 }
@@ -505,6 +507,7 @@ select {
   width: 210px;
   height: 50px;
   margin-top: 40px;
+  font-size: 12px;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.05rem;
@@ -572,7 +575,7 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 40px;
+  row-gap: 120px;
 }
 
 .main-collection__essential-list__card {
@@ -580,7 +583,6 @@ select {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
-  cursor: pointer;
 }
 
 .main-collection__essential-list__card:nth-child(2) {
@@ -612,6 +614,7 @@ select {
 
 .main-collection__essential-list__card-text {
   margin-top: 20px;
+  font-size: 12px;
   text-align: center;
   letter-spacing: 0.05rem;
   color: #ffffff;
@@ -621,6 +624,7 @@ select {
   width: 210px;
   height: 50px;
   margin: 40px auto 0px;
+  font-size: 12px;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.05rem;
@@ -637,6 +641,9 @@ select {
 }
 
 @media screen and (max-width: 768px) {
+  .main-collection__essential-list__inner {
+    row-gap: 40px;
+  }
   .main-collection__essential-list__card {
     width: 100%;
     flex-direction: column;
@@ -697,7 +704,10 @@ select {
   width: 300px;
   max-width: 300px;
   height: 100%;
-  cursor: pointer;
+}
+
+.main-collection__recommended-list__card:hover {
+  background-color: #333333;
 }
 
 .main-collection__recommended-list__image {
@@ -718,12 +728,14 @@ select {
 
 .main-collection__recommended-list__card-text--primary {
   padding-top: 10px;
+  font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
   text-align: center;
 }
 
 .main-collection__recommended-list__card-text--secondary {
+  font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
   text-align: center;
@@ -782,7 +794,10 @@ select {
   width: 300px;
   max-width: 300px;
   height: 100%;
-  cursor: pointer;
+}
+
+.main-news__card:hover {
+  background-color: #333333;
 }
 
 .main-news__image {
@@ -803,12 +818,14 @@ select {
 
 .main-news__card-text--primary {
   padding-top: 10px;
+  font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
   text-align: center;
 }
 
 .main-news__card-text--secondary {
+  font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
   text-align: center;
@@ -878,7 +895,8 @@ select {
 }
 
 .main-about__subContainer__text {
-  margin-top: 140px;
+  margin-top: 160px;
+  font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
   justify-self: center;
@@ -889,6 +907,7 @@ select {
   max-width: 210px;
   height: 50px;
   margin: 120px auto 0px;
+  font-size: 12px;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.05rem;

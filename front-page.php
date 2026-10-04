@@ -159,27 +159,27 @@
                 </p>
 
                 <div class="main-collection__recommended-list__inner">
-                    <div class="main-collection__recommended-list__card">
+                    <a href="#" class="main-collection__recommended-list__card">
                         <div class="main-collection__recommended-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr1.jpg"?>" alt="ベージュのコート着た女性">
                         </div>
                         <p class="main-collection__recommended-list__card-text--primary">Relaxed Tailored Coat</p>
                         <p class="main-collection__recommended-list__card-text--secondary">¥22,800</p>
-                    </div>
-                    <div class="main-collection__recommended-list__card">
+                    </a>
+                    <a href="#" class="main-collection__recommended-list__card">
                         <div class="main-collection__recommended-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr2.jpg"?>" alt="白シャツを着た女性">
                         </div>
                         <p class="main-collection__recommended-list__card-text--primary">Essential Camisole</p>
                         <p class="main-collection__recommended-list__card-text--secondary">¥7,900</p>
-                    </div>
-                    <div class="main-collection__recommended-list__card">
+                    </a>
+                    <a href="#" class="main-collection__recommended-list__card">
                         <div class="main-collection__recommended-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr3.jpg"?>" alt="グレーのパンツとサングラスをかけている女性">
                         </div>
                         <p class="main-collection__recommended-list__card-text--primary">Wide Tapered Slacks</p>
                         <p class="main-collection__recommended-list__card-text--secondary">¥12,800</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -191,29 +191,29 @@
             <p class="main-news__text">
                 最新ニュースと更新情報
             </p>
-            <ul class="main-news__list">
-                <li class="main-news__card">
+            <div class="main-news__list">
+                <a href="#" class="main-news__card">
                     <div class="main-news__image">
                         <img src="<?php  echo get_template_directory_uri() . "/assets/images/news1.jpg"?>" alt="街中を歩く3人の女性">
                     </div>
                     <p class="main-news__card-text--primary">2026.06.01</p>
                     <p class="main-news__card-text--secondary">SPRING COLLECTION 2026</p>
-                </li>
-                <li class="main-news__card">
+                </a>
+                <a href="#" class="main-news__card">
                     <div class="main-news__image">
                         <img src="<?php  echo get_template_directory_uri() . "/assets/images/news2.jpg"?>" alt="白い服を着た女性があぐらをかいている">
                     </div>
                     <p class="main-news__card-text--primary">2026.05.25</p>
                     <p class="main-news__card-text--secondary">NEW OUTER ARRIVALS</p>
-                </li>
-                <li class="main-news__card">
+                </a>
+                <a href="#" class="main-news__card">
                     <div class="main-news__image">
                         <img src="<?php  echo get_template_directory_uri() . "/assets/images/news3.jpg"?>" alt="棒にたくさんの服がかかっている">
                     </div>
                     <p class="main-news__card-text--primary">2026.05.20</p>
                     <p class="main-news__card-text--secondary">SUMMER ESSENTIALS</p>
-                </li>
-            </ul>
+                </a>
+            </div>
         </section>
 
         <section class="main-about">
