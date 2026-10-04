@@ -107,6 +107,10 @@
   display: none;
 }
 
+.close-button {
+  cursor: pointer;
+}
+
 .close-button span:nth-child(1) {
   position: absolute;
 
@@ -152,13 +156,14 @@
   margin-left: 20px;
 }
 
-.hamburger-menu__list li:nth-child(1) {
-  display: flex;
-}
-
 .hamburger-menu__list li a {
+  font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
+}
+
+.hamburger-menu__list li label {
+  display: flex;
 }
 
 .hamburger-menu__list li a:hover {
@@ -166,9 +171,10 @@
 }
 
 .hamburger-menu__list li input {
+  width: 250px;
   height: 26px;
 
-  margin-left: 20px;
+  margin-left: 10px;
   padding-top: 5px;
   padding-left: 5px;
   padding-bottom: 5px;
@@ -179,6 +185,7 @@
 
   border: 1px solid #ffffff;
 
+  font-size: 12px;
   color: #ffffff;
 }
 
