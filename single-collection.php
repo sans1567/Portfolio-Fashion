@@ -33,25 +33,25 @@
                         <p class="main-singleCollection__size">
                             XS/S/M/L/XL
                         </p>
-                        <div class="main-singleCollection__description">
-                            都会的なミニマルデザインが魅力のロングテーラードコート。
+                        <p class="main-singleCollection__description">
+                            都会的なミニマルデザインが魅力のロングテーラードコート。<br>
                             程よくゆとりのあるシルエットで、ニットやスウェットの
-                            上からでも快適に羽織れます。
-                            上質なウールライク素材を採用し、軽やかな着心地と上品な風合いを両立。
+                            上からでも快適に羽織れます。<br>
+                            上質なウールライク素材を採用し、軽やかな着心地と上品な風合いを両立。<br>
                             カジュアルからビジネスカジュアルまで
                             幅広いスタイリングに馴染み、長く愛用できる一着です。
-                        </div>
-                        <button class="collection-detail__button" disabled>
+                        </p>
+                        <a href="#" class="main-singleCollection__link" disabled>
                             SOLD OUT
-                        </button>
+                        </a>
                     </div>
                 </div>
 
                 <div class="main-main-singleCollection__related">
-                    <h2 class="main-main-singleCollection__related-title">
-                        RELARED
-                    </h2>
-                    <div class="main-main-singleCollection__related-list">
+                    <div class="main-main-singleCollection__related-inner">
+                        <h2 class="main-main-singleCollection__related-title">
+                            RELARED
+                        </h2>
                         <div class="main-main-singleCollection__related-list">
                             <a href="#" class="main-main-singleCollection__related-list__card">
                                 <div class="main-main-singleCollection__related-list__image">
@@ -86,7 +86,7 @@
                                     ¥16,800
                                 </p>
                             </a>
-                        </div>
+                        </div>             
                     </div>
                 </div>
             </section>
