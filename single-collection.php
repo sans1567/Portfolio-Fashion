@@ -28,11 +28,16 @@
                             ¥24,800
                         </p>
                         <p class="main-singleCollection__color">
-                            Color:Camel
+                            COLOR:Camel
                         </p>
-                        <p class="main-singleCollection__size">
-                            XS/S/M/L/XL
-                        </p>
+                        <select class="main-singleCollection__size" name="size">
+                            <option value="">サイズを選択してください</option>
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                        </select>
                         <p class="main-singleCollection__description">
                             都会的なミニマルデザインが魅力のロングテーラードコート。<br>
                             程よくゆとりのあるシルエットで、ニットやスウェットの
@@ -52,6 +57,9 @@
                         <h2 class="main-main-singleCollection__related-title">
                             RELARED
                         </h2>
+                        <p class="main-main-singleCollection__related-text">
+                            関連商品
+                        </p>
                         <div class="main-main-singleCollection__related-list">
                             <a href="#" class="main-main-singleCollection__related-list__card">
                                 <div class="main-main-singleCollection__related-list__image">
