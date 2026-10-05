@@ -723,6 +723,14 @@ select {
   max-height: 350px;
   aspect-ratio: 3/4;
   overflow: hidden;
+  position: relative;
+}
+
+.main-collection__recommended-list__image:nth-child(2)::before {
+  content: "SOLD OUT";
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .main-collection__recommended-list__image img {
@@ -891,7 +899,7 @@ select {
   color: #ffffff;
 }
 
-.main-about__mainContainer__text {
+.main-about__mainContainer-text {
   letter-spacing: 0.05rem;
   color: #ffffff;
   text-align: center;
@@ -904,7 +912,7 @@ select {
   padding-right: 20px;
 }
 
-.main-about__subContainer__text {
+.main-about__subContainer-text {
   margin-top: 160px;
   font-size: 12px;
   letter-spacing: 0.05rem;
@@ -945,10 +953,10 @@ select {
 }
 
 @media screen and (max-width: 768px) {
-  .main-about__mainContainer__text {
+  .main-about__mainContainer-text {
     font-size: 10px;
   }
-  .main-about__subContainer__text {
+  .main-about__subContainer-text {
     font-size: 10px;
   }
 }
@@ -960,7 +968,7 @@ select {
   .main-about__mainContainer {
     width: 100%;
   }
-  .main-about__mainContainer__text {
+  .main-about__mainContainer-text {
     margin-bottom: 120px;
     font-size: 16px;
   }

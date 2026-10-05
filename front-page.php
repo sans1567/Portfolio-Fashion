@@ -171,14 +171,14 @@
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr2.jpg"?>" alt="白シャツを着た女性">
                         </div>
                         <p class="main-collection__recommended-list__card-text--primary">Essential Camisole</p>
-                        <p class="main-collection__recommended-list__card-text--secondary">¥7,900</p>
+                        <p class="main-collection__recommended-list__card-text--secondary">¥7,900 (SOLD OUT)</p>
                     </a>
                     <a href="#" class="main-collection__recommended-list__card">
                         <div class="main-collection__recommended-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr3.jpg"?>" alt="グレーのパンツとサングラスをかけている女性">
                         </div>
                         <p class="main-collection__recommended-list__card-text--primary">Wide Tapered Slacks</p>
-                        <p class="main-collection__recommended-list__card-text--secondary">¥12,800</p>
+                        <p class="main-collection__recommended-list__card-text--secondary">¥12,800 (SOLD OUT)</p>
                     </a>
                 </div>
             </div>
@@ -224,13 +224,13 @@
                 <p class="main-about__text">
                     このサイトについて
                 </p>
-                <p class="main-about__mainContainer__text">
+                <p class="main-about__mainContainer-text">
                     Simplicity Creates Style<br>
                     シンプルが、個性を作る。
                 </p>
             </div>
             <div class="main-about__subContainer">
-                <p class="main-about__subContainer__text">
+                <p class="main-about__subContainer-text">
                     20〜30代の女性をターゲットに<br>
                     ミニマルで洗練された世界観を表現した<br>
                     ファッションブランドサイトです。<br>
