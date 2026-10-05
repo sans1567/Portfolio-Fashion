@@ -46,7 +46,7 @@
                             カジュアルからビジネスカジュアルまで
                             幅広いスタイリングに馴染み、長く愛用できる一着です。
                         </p>
-                        <a href="#" class="main-singleCollection__link" disabled>
+                        <a href="#" class="main-singleCollection__link">
                             SOLD OUT
                         </a>
                     </div>
