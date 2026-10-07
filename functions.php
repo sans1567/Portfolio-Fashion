@@ -41,8 +41,31 @@
 
             'show_in_rest' => true,
         ]);
+
+        register_post_type('news', [
+            'labels' => [
+                'name'          => 'News',
+                'singular_name' => 'News',
+                'add_new_item'  => 'Newsを追加',
+                'edit_item'     => 'Newsを編集',
+            ],
+
+            'public' => true,
+            'has_archive' => true,
+
+            'supports' => [
+                'title',
+                'editor',
+                'thumbnail',
+            ],
+
+            'rewrite' => [
+                'slug' => 'news',
+            ],
+
+            'show_in_rest' => true,
+        ]);
     }
 
     add_action('init', 'portfolio_register_post_types');
-    
 ?>
