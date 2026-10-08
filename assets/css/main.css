@@ -706,6 +706,7 @@ select {
   display: flex;
   flex-direction: row;
   column-gap: 20px;
+  row-gap: 20px;
 }
 
 .main-collection__recommended-list__card {
@@ -805,6 +806,7 @@ select {
   flex-direction: row;
   justify-content: flex-start;
   column-gap: 20px;
+  row-gap: 20px;
 }
 
 .main-news__card {
