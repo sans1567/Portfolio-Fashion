@@ -11,7 +11,7 @@
                 <h2 class="main-visual__title">
                     SPLING/SUMMER&nbsp;2026
                 </h2>
-                <a href="#" class="main-visual__link">
+                <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__link">
                     View Collection
                 </a>
             </div>
@@ -159,7 +159,7 @@
                 </p>
 
                 <div class="main-collection__recommended-list__inner">
-                    <a href="#" class="main-collection__recommended-list__card">
+                    <a href="<?php echo esc_url(get_permalink(13));?>" class="main-collection__recommended-list__card">
                         <div class="main-collection__recommended-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr1.jpg"?>" alt="ベージュのコート着た女性">
                         </div>
@@ -192,7 +192,7 @@
                 最新ニュースと更新情報
             </p>
             <div class="main-news__list">
-                <a href="#" class="main-news__card">
+                <a href="<?php echo esc_url(get_permalink(17));?>" class="main-news__card">
                     <div class="main-news__image">
                         <img src="<?php  echo get_template_directory_uri() . "/assets/images/news1.jpg"?>" alt="街中を歩く3人の女性">
                     </div>
@@ -237,7 +237,7 @@
                     モノトーンを基調に、余白や写真の見せ方を意識し、<br>
                     商品そのものが引き立つシンプルなデザインに仕上げました。
                 </p>
-                <a href="#" class="main-about__link">
+                <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-about__link">
                     View Collection
                 </a>
             </div>
