@@ -10,7 +10,7 @@
                 最新のコレクション
             </p>
             <div class="main-archiveCollection__list">
-                <a href="#" class="main-archiveCollection__card">
+                <a href="<?php echo esc_url(get_permalink(13));?>" class="main-archiveCollection__card">
                     <div class="main-archiveCollection__image">
                         <img src="<?php echo get_template_directory_uri() . "/assets/images/mcr1.jpg"?>" alt="ベージュのコート着た女性">
                     </div>
