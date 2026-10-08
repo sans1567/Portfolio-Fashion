@@ -8,7 +8,7 @@
     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-logo">
-                <a href="<?php home_url()?>>">Portfolio-Fashion</a>
+                <a href="<?php home_url('/')?>">Portfolio-Fashion</a>
             </div>
             <nav class="footer-nav">
                 <ul class="footer-nav__list">
@@ -20,7 +20,7 @@
                     </li>
                     <li>
                         <h2>INFOMATION</h2>
-                        <a href="#"><span>◻︎NEWS</span></a>
+                        <a href="<?php echo esc_url(get_post_type_archive_link('news')); ?>"><span>◻︎NEWS</span></a>
                         <a href="#"><span>◻︎CONTACT</span></a>
                         <a href="#"><span>◻︎ABOUT</span></a>
                     </li>
