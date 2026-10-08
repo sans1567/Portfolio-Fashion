@@ -216,7 +216,7 @@
             </div>
         </section>
 
-        <section class="main-about">
+        <section class="main-about" id="main-about">
             <div class="main-about__mainContainer">
                 <h2 class="main-about__title">
                     ABOUT
