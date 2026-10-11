@@ -1,0 +1,66 @@
+.main-404 {
+    background-color: #000000;
+
+    border-bottom: 1px solid #ffffff;
+}
+
+.main-404__inner {
+    height: 100vh;
+
+    padding-top: 180px;
+    padding-bottom: 120px;
+}
+
+.main-404__errorMessage {
+    font-size: 84px;
+    font-weight: normal;
+    letter-spacing: 0.05rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-404__text--primary {
+    font-weight: normal;
+    letter-spacing: 0.05rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-404__text--secondary {
+    margin-top: 120px;
+
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-404__link {
+    width: 210px;
+    height: 50px;
+
+    margin: 40px auto 0px;
+
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    border: 1px solid #333333;
+
+    background-color: rgba(0,0,0,0.1);
+
+    display: grid;
+    place-items: center;
+}
+
+.main-404__link:hover {
+    background-color: #eeeeee;
+    opacity: 0.6;
+    color: #333333;
+}
+
+@media screen and (max-width: 395px) {
+    .main-404__text--secondary {
+        font-size: 10px;
+    }
+}
