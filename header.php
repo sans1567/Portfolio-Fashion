@@ -21,7 +21,7 @@
                     <ul class="header-nav__list">
                         <li><a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>">COLLECTION</a></li>
                         <li><a href="<?php echo esc_url(get_post_type_archive_link('news')); ?>">NEWS</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="<?php echo home_url('/contact/')?>">CONTACT</a></li>
                     </ul>
                 </nav>
                 <?php  //ハンバーガーボタン?>
@@ -43,7 +43,7 @@
                         <li><label><img src="<?php echo get_template_directory_uri() . "/assets/images/search-icon.svg"?>" alt="検索アイコン"><input type="text" name="serchItem" placeholder="アイテムを検索する"></label></li>
                         <li><a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>">COLLECTION</a></li>
                         <li><a href="<?php echo esc_url(get_post_type_archive_link('news')); ?>">NEWS</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="<?php echo home_url('/contact/')?>">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
