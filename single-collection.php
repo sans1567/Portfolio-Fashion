@@ -18,14 +18,14 @@
                     </div>
                     <!-- 商品詳細 -->
                     <div class="main-singleCollection__data">
-                        <p class="main-singleCollection__category">
-                            Outer
-                        </p>
                         <h2 class="main-singleCollection__title">
                             Relaxed Tailored Coat
                         </h2>
+                        <p class="main-singleCollection__category">
+                            CATEGORY:Outer
+                        </p>
                         <p class="main-singleCollection__price">
-                            ¥24,800
+                            PRICE:¥24,800
                         </p>
                         <p class="main-singleCollection__color">
                             COLOR:Camel
