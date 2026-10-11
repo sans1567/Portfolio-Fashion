@@ -4,27 +4,21 @@
     <div class="main-inner">
 
         <section class="main-visual">
+            <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__title">
+                SPLING/SUMMER&nbsp;2026
+            </a>
+            <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__link">
+                ▶︎最新コレクションを確認する
+            </a>
             <div class="main-visual__item--collection">
                 <div class="main-visual__image">
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/mv1.jpg"?>" alt="黒いスーツの女性の画像">
                 </div>
-                <h2 class="main-visual__title">
-                    SPLING/SUMMER&nbsp;2026
-                </h2>
-                <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__link">
-                    View Collection
-                </a>
             </div>
             <div class="main-visual__item--essential">
                 <div class="main-visual__image">
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/mv2.jpg"?>" alt="ベージュのスーツの女性の画像">
                 </div>
-                <h2 class="main-visual__title">
-                    TIMELESS&nbsp;ESSENTIALS
-                </h2>
-                <a href="#" class="main-visual__link">
-                    <span>Coming Soon</span>
-                </a>
             </div>
         </section>
 
@@ -105,10 +99,11 @@
                         </div>
                         <div class="main-collection__essentitle-list__headiing">
                             <h3 class="main-collection__essential-list__card-title">
-                                ESSENTIAL OUTER
+                                定番アウター
                             </h3>
                             <p class="main-collection__essential-list__card-text">
-                                定番アウター
+                                ミニマルなデザインが魅力の定番アウター。<br>
+                                シンプルながらも存在感があり、日常のスタイリングに上品さをプラスします。<br>
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
                                 Coming Soon
@@ -121,10 +116,11 @@
                         </div>
                         <div class="main-collection__essentitle-list__headiing">
                             <h3 class="main-collection__essential-list__card-title">
-                                ESSENTIAL TOP
+                                定番トップス
                             </h3>
                             <p class="main-collection__essential-list__card-text">
-                                定番トップス
+                                シンプルながらも上品さを感じさせる定番トップス。<br>
+                                自然な抜け感が、洗練されたスタイルを演出します。
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
                                 Coming Soon
@@ -137,10 +133,11 @@
                         </div>
                         <div class="main-collection__essentitle-list__headiing">
                             <h3 class="main-collection__essential-list__card-title">
-                                ESSENTIAL BOTTOMS
+                                定番ボトムス
                             </h3>
                             <p class="main-collection__essential-list__card-text">
-                                定番ボトムス
+                                美しいシルエットが魅力の定番ボトムス。<br>
+                                程よいゆとりが、上品で洗練された着こなしを演出します。
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
                                 Coming Soon
@@ -244,7 +241,7 @@
                     商品そのものが引き立つシンプルなデザインに仕上げました。
                 </p>
                 <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-about__link">
-                    View Collection
+                    ▶︎最新コレクションを確認する
                 </a>
             </div>
             <div class="main-about__bar"></div> 
