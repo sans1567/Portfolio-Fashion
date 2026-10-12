@@ -14,6 +14,7 @@
                             <!--サブの画像2枚-->
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm1.jpg"?>" alt="ベージュのコート前">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm2.jpg"?>" alt="ベージュのコート後">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr1.jpg"?>" alt="ベージュのコート着た女性">
                         </div>
                     </div>
                     <!-- 商品詳細 -->
@@ -52,45 +53,45 @@
                     </div>
                 </div>
 
-                <div class="main-main-singleCollection__related">
-                    <div class="main-main-singleCollection__related-inner">
-                        <h2 class="main-main-singleCollection__related-title">
+                <div class="main-singleCollection__related">
+                    <div class="main-singleCollection__related-inner">
+                        <h2 class="main-singleCollection__related-title">
                             RELARED
                         </h2>
-                        <p class="main-main-singleCollection__related-text">
+                        <p class="main-singleCollection__related-text">
                             関連商品
                         </p>
-                        <div class="main-main-singleCollection__related-list">
-                            <a href="#" class="main-main-singleCollection__related-list__card">
-                                <div class="main-main-singleCollection__related-list__image">
+                        <div class="main-singleCollection__related-list">
+                            <a href="#" class="main-singleCollection__related-list__card">
+                                <div class="main-singleCollection__related-list__image">
                                     <img src="<?php  echo get_template_directory_uri() . "/assets/images/scr1.jpg"?>" alt="黒のダブルのライダース">
                                 </div>
-                                <p class="main-main-singleCollection__related-list__prodactName">
+                                <p class="main-singleCollection__related-list__prodactName">
                                     Minimal Leather Jacket
                                 </p>
-                                <p class="main-main-singleCollection__related-list__prodactPrice">
+                                <p class="main-singleCollection__related-list__prodactPrice">
                                     ¥19,800
                                 </p>
                             </a>
-                            <a href="#" class="main-main-singleCollection__related-list__card">
-                                <div class="main-main-singleCollection__related-list__image">
+                            <a href="#" class="main-singleCollection__related-list__card">
+                                <div class="main-singleCollection__related-list__image">
                                     <img src="<?php  echo get_template_directory_uri() . "/assets/images/scr2.jpg"?>" alt="肌色のスラックス">
                                 </div>
-                                <p class="main-main-singleCollection__related-list__prodactName">
+                                <p class="main-singleCollection__related-list__prodactName">
                                     Relax Wide Slacks
                                 </p>
-                                <p class="main-main-singleCollection__related-list__prodactPrice">
+                                <p class="main-singleCollection__related-list__prodactPrice">
                                     ¥9,800
                                 </p>
                             </a>
-                            <a href="#" class="main-main-singleCollection__related-list__card">
-                                <div class="main-main-singleCollection__related-list__image">
+                            <a href="#" class="main-singleCollection__related-list__card">
+                                <div class="main-singleCollection__related-list__image">
                                     <img src="<?php  echo get_template_directory_uri() . "/assets/images/scr3.jpg"?>" alt="黒のボンバージャケット">
                                 </div>
-                                <p class="main-main-singleCollection__related-list__prodactName">
+                                <p class="main-singleCollection__related-list__prodactName">
                                     Minimal Bomber Jacket
                                 </p>
-                                <p class="main-main-singleCollection__related-list__prodactPrice">
+                                <p class="main-singleCollection__related-list__prodactPrice">
                                     ¥16,800
                                 </p>
                             </a>
