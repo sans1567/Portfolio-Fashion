@@ -1547,7 +1547,7 @@ select {
 }
 
 .contact__inner {
-  padding-top: 40px;
+  padding-top: 80px;
   padding-bottom: 120px;
   padding-left: 40px;
   padding-right: 40px;
@@ -1561,7 +1561,6 @@ select {
 }
 
 .contact__text {
-  margin-top: 40px;
   font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
@@ -1571,12 +1570,12 @@ select {
 .contact__form {
   background-color: #eeeeee;
   margin-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .contact__field {
   width: 670px;
-  padding-top: 40px;
+  padding-top: 60px;
   margin: 0 auto;
 }
 

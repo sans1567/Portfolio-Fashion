@@ -3,7 +3,6 @@
 <main class="main">
     <section class="contact">
         <div class="contact__inner">
-            <h2 class="contact__title">CONTACT</h2>
             <p class="contact__text">
                 当社の製品についてご質問がございましたら、お気軽にお問い合わせください。
             </p>
