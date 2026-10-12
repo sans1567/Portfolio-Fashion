@@ -77,7 +77,7 @@ select {
 
 .header-nav__list {
   display: flex;
-  gap: 20px;
+  column-gap: 15px;
 }
 
 .header-nav__list li a {
@@ -214,6 +214,10 @@ select {
 @media screen and (max-width: 768px) {
   .search-icon {
     display: none;
+  }
+  .header-logo {
+    left: 20px;
+    transform: translateX(0px);
   }
   .header-logo a {
     font-size: 20px;
