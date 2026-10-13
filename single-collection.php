@@ -8,12 +8,12 @@
                     <!--画像-->
                     <div class="main-singleCollection__ImageItem">
                         <div class="main-singleCollection__image--primary">
-                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm1.jpg"?>" alt="ベージュのコート前">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm1.png"?>" alt="ベージュのコート前">
                         </div>
                         <div class="main-singleCollection__image--secondary">
                             <!--サブの画像2枚-->
-                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm1.jpg"?>" alt="ベージュのコート前">
-                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm2.jpg"?>" alt="ベージュのコート後">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm1.png"?>" alt="ベージュのコート前">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm2.png"?>" alt="ベージュのコート後">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr1.jpg"?>" alt="ベージュのコート着た女性">
                         </div>
                     </div>
@@ -31,14 +31,16 @@
                         <p class="main-singleCollection__color">
                             COLOR:Camel
                         </p>
-                        <select class="main-singleCollection__size" name="size">
-                            <option value="">サイズを選択してください</option>
-                            <option value="xs">XS</option>
-                            <option value="s">S</option>
-                            <option value="m">M</option>
-                            <option value="l">L</option>
-                            <option value="xl">XL</option>
-                        </select>
+                        <div class="main-singleCollection__size">
+                            <select  id="size" name="size">
+                                <option value="">サイズを選択してください</option>
+                                <option value="xs">XS</option>
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                            </select>
+                        </div>
                         <p class="main-singleCollection__description">
                             都会的なミニマルデザインが魅力のロングテーラードコート。<br>
                             程よくゆとりのあるシルエットで、ニットやスウェットの
@@ -70,7 +72,7 @@
                                     Minimal Leather Jacket
                                 </p>
                                 <p class="main-singleCollection__related-list__prodactPrice">
-                                    ¥19,800
+                                    ¥19,800 (SOLD OUT)
                                 </p>
                             </a>
                             <a href="#" class="main-singleCollection__related-list__card">
@@ -81,7 +83,7 @@
                                     Relax Wide Slacks
                                 </p>
                                 <p class="main-singleCollection__related-list__prodactPrice">
-                                    ¥9,800
+                                    ¥9,800 (SOLD OUT)
                                 </p>
                             </a>
                             <a href="#" class="main-singleCollection__related-list__card">
@@ -92,7 +94,7 @@
                                     Minimal Bomber Jacket
                                 </p>
                                 <p class="main-singleCollection__related-list__prodactPrice">
-                                    ¥16,800
+                                    ¥16,800 (SOLD OUT)
                                 </p>
                             </a>
                         </div>             
