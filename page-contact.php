@@ -26,10 +26,16 @@
                 </div>
 
                 <div class="contact__field contact__checkboxField">
-                    <label><input type="checkbox" name="privacy"><span>プライバシーポリシーに同意します</span></label>
+                    <div class="contact__checkboxField-container">
+                        <label>
+                            <input type="checkbox" name="privacy">
+                            <span class="checkMark"></span>
+                            <span>プライバシーポリシーに同意します</span>
+                        </label>
+                    </div>
                 </div>
 
-                <input class="contact__form-submit" type="submit" value="送信">
+                <input class="contact__form-submit" type="submit" value="送信" disabled>
             </form>
 
         </div>
