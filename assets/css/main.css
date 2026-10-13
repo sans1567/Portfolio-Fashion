@@ -1583,10 +1583,8 @@ select {
 }
 
 .contact__inner {
-  padding-top: 80px;
+  padding-top: 190px;
   padding-bottom: 120px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .contact__title {
@@ -1603,21 +1601,16 @@ select {
   text-align: center;
 }
 
-.contact__form {
-  background-color: #eeeeee;
-  margin-top: 40px;
-  padding-bottom: 60px;
-}
-
 .contact__field {
-  width: 670px;
-  padding-top: 60px;
+  width: 630px;
+  padding-top: 40px;
   margin: 0 auto;
 }
 
 .contact__field label span {
   display: inline-block;
   width: 80px;
+  color: #ffffff;
   font-size: 12px;
   letter-spacing: 0.05rem;
   text-align: left;
@@ -1629,7 +1622,7 @@ select {
   height: 28px;
   outline: none;
   appearance: none;
-  border: 1px solid #333333;
+  border: none;
   font-size: 12px;
 }
 
@@ -1640,7 +1633,7 @@ select {
   height: 28px;
   outline: none;
   appearance: none;
-  border: 1px solid #333333;
+  border: none;
   font-size: 12px;
 }
 
@@ -1658,32 +1651,55 @@ select {
   max-width: 540px;
   height: 108px;
   appearance: none;
-  border: 1px solid #333333;
   outline: none;
   font-size: 12px;
 }
 
 .contact__checkboxField {
   width: 100%;
-  max-width: 300px;
+  max-width: 610px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 0px;
   margin-top: 40px;
   text-align: center;
   background-color: #ffffff;
 }
 
+.contact__checkboxField-container {
+  width: 240px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .contact__checkboxField label {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.contact__field label input[type=checkbox] {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000000;
+}
+
 .contact__checkboxField label span {
   width: 220px;
   margin-left: 5px;
+  color: #000000;
+}
+
+.contact__checkboxField label .checkMark {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 9px;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  transform: rotate(-45deg);
+  display: none;
 }
 
 .contact__form-submit {
@@ -1693,15 +1709,19 @@ select {
   width: 220px;
   height: 44px;
   margin: 40px auto 0px;
-  border: 1px solid #333333;
+  border: none;
 }
 
 .contact__form-submit:hover {
-  color: #ffffff;
-  background-color: #333333;
+  background-color: #eeeeee;
+  opacity: 0.6;
+  color: #333333;
 }
 
 @media screen and (max-width: 768px) {
+  .contact__inner {
+    padding-top: 120px;
+  }
   .contact__text {
     font-size: 10px;
   }
@@ -1711,8 +1731,6 @@ select {
   }
   .contact__field {
     width: 100%;
-    padding-left: 0px;
-    margin: 0 auto;
   }
   .contact__field label {
     display: flex;
@@ -1753,6 +1771,9 @@ select {
   .contact__checkboxField label span {
     width: 200px;
     vertical-align: bottom;
+  }
+  .contact__checkboxField label .checkMark {
+    left: 7px;
   }
 }
 .main-404 {
