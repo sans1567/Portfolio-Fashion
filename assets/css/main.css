@@ -474,16 +474,19 @@ select {
 }
 
 .main-collection__newProduct-list__card {
-  width: 600px;
+  width: 500px;
+  height: 800px;
 }
 
 .main-collection__newProduct-list__image {
   width: 100%;
-  height: 100%;
+  height: 600px;
+  overflow: hidden;
 }
 
 .main-collection__newProduct-list__image img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -496,7 +499,6 @@ select {
 
 .main-collection__newProduct-list__text {
   margin-top: 20px;
-  width: 100%;
   font-size: 12px;
   letter-spacing: 0.05rem;
   color: #ffffff;
@@ -532,7 +534,7 @@ select {
     text-align: center;
   }
   .main-collection__newProduct-list__card {
-    width: 100%;
+    width: 400px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -586,37 +588,9 @@ select {
   position: relative;
 }
 
-.main-collection__essential-list__card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 1px;
-  height: 100%;
-  background-color: #ffffff;
-}
-
-.main-collection__essential-list__card:nth-child(1) {
-  border-top: 1px solid #ffffff;
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-}
-
 .main-collection__essential-list__card:nth-child(2) {
   display: flex;
   flex-direction: row-reverse;
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-}
-
-.main-collection__essential-list__card:nth-child(3) {
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
 }
 
 .main-collection__essential-list__image {
@@ -654,7 +628,7 @@ select {
 .main-collection__essential-list__link {
   width: 210px;
   height: 50px;
-  margin: 40px auto 0px;
+  margin: 60px auto 0px;
   font-size: 12px;
   color: #ffffff;
   text-align: center;
