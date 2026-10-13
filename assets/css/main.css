@@ -1036,7 +1036,6 @@ select {
 .main-singleCollection__ImageItem {
   width: 50%;
   height: 680px;
-  background-color: #ffffff;
   position: relative;
 }
 
@@ -1083,41 +1082,70 @@ select {
   padding-top: 120px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #ffffff;
 }
 
 .main-singleCollection__title {
   letter-spacing: 0.05rem;
+  color: #ffffff;
 }
 
 .main-singleCollection__category {
   margin-top: 20px;
+  color: #ffffff;
   font-size: 12px;
   letter-spacing: 0.05rem;
 }
 
 .main-singleCollection__price {
   margin-top: 20px;
+  color: #ffffff;
   font-size: 12px;
   letter-spacing: 0.05rem;
 }
 
 .main-singleCollection__color {
   margin-top: 20px;
+  color: #ffffff;
   font-size: 12px;
   letter-spacing: 0.05rem;
 }
 
 .main-singleCollection__size {
+  width: 300px;
+  position: relative;
+}
+
+.main-singleCollection__size::before {
   display: block;
+  content: "";
+  position: absolute;
+  right: 25px;
+  bottom: 28%;
+  transform: rotate(-45deg);
+  width: 6px;
+  height: 6px;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  pointer-events: none;
+}
+
+#size {
+  width: 100%;
   outline: none;
   margin-top: 20px;
+  appearance: none;
+  padding: 10px 30px 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
   font-size: 12px;
-  letter-spacing: 0.05rem;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  cursor: pointer;
 }
 
 .main-singleCollection__description {
-  margin-top: 40px;
+  margin-top: 80px;
+  color: #ffffff;
   letter-spacing: 0.05rem;
   font-size: 12px;
 }
@@ -1130,10 +1158,16 @@ select {
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.05rem;
-  border: 1px solid #333333;
+  border: 1px solid #ffffff;
   background-color: rgba(0, 0, 0, 0.1);
   display: grid;
   place-items: center;
+}
+
+.main-singleCollection__link:hover {
+  background-color: #eeeeee;
+  opacity: 0.6;
+  color: #333333;
 }
 
 .main-singleCollection__related {
@@ -1141,11 +1175,6 @@ select {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 120px;
-  background-color: #000000;
-}
-
-.main-singleCollection__related-inner {
-  background-color: #ffffff;
 }
 
 .main-singleCollection__related-title {
@@ -1153,12 +1182,14 @@ select {
   padding-left: 20px;
   font-weight: normal;
   letter-spacing: 0.05rem;
+  color: #ffffff;
 }
 
 .main-singleCollection__related-text {
   padding-left: 20px;
   font-size: 12px;
   letter-spacing: 0.05rem;
+  color: #ffffff;
 }
 
 .main-singleCollection__related-list {
@@ -1175,7 +1206,6 @@ select {
   width: 300px;
   max-width: 300px;
   height: 100%;
-  border: 1px solid #333333;
 }
 
 .main-singleCollection__related-list__card:hover {
@@ -1203,6 +1233,7 @@ select {
   text-align: center;
   font-size: 12px;
   letter-spacing: 0.05rem;
+  color: #ffffff;
 }
 
 .main-singleCollection__related-list__prodactPrice {
@@ -1210,6 +1241,7 @@ select {
   text-align: center;
   font-size: 12px;
   letter-spacing: 0.05rem;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
