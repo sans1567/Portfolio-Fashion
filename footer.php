@@ -13,19 +13,18 @@
             <nav class="footer-nav">
                 <ul class="footer-nav__list">
                     <li>
-                        <h2>COLLECTION</h2>
+                        <p>COLLECTION</p>
                         <a href="#"><span>◻︎OUTER</span></a>
                         <a href="#"><span>◻︎TOPS</span></a>
                         <a href="#"><span>◻︎BOTTOMS</span></a>
                     </li>
                     <li>
-                        <h2>INFOMATION</h2>
+                        <p>INFOMATION</p>
                         <a href="<?php echo esc_url(get_post_type_archive_link('news')); ?>"><span>◻︎NEWS</span></a>
                         <a href="<?php echo home_url('/contact/')?>"><span>◻︎CONTACT</span></a>
-                        <a href="#"><span>◻︎ABOUT</span></a>
                     </li>
                     <li>
-                        <h2>FOLLOW</h2>
+                        <p>FOLLOW</p>
                         <a href="#"><span>◻︎Instagram</span></a>
                         <a href="#"><span>◻︎X</span></a>
                     </li>
