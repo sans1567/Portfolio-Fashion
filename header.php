@@ -40,10 +40,6 @@
                         <li><a href="<?php echo esc_url(get_post_type_archive_link('news')); ?>">◻︎NEWS</a></li>
                         <li><a href="<?php echo home_url('/contact/')?>">◻︎CONTACT</a></li>
                     </ul>
-                    <div class="close-button">
-                        <span></span>
-                        <span></span>
-                    </div>
                 </div>
             </div>
         </header>
