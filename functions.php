@@ -8,6 +8,13 @@
             array(),
             '1.0'
         );
+
+        wp_enqueue_script(
+            'main-js',
+            get_template_directory_uri() . '/assets/js/main.js',
+            array(),
+            '1.0',
+        );
     }
 
     add_action('wp_enqueue_scripts', 'portfolio_fashion_enqueue_scripts');
