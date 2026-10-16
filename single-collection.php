@@ -5,6 +5,9 @@
         <?php while(have_posts()) : the_post(); ?>
             <section class="main-singleCollection">
                 <div class="main-singleCollection__inner">
+                    <div class="mouseStalker">
+                        <span></span>
+                    </div>
                     <!--画像-->
                     <div class="main-singleCollection__ImageItem">
                         <div class="main-singleCollection__image--primary">
@@ -14,7 +17,7 @@
                             <!--サブの画像2枚-->
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm1.png"?>" alt="ベージュのコート前">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm2.png"?>" alt="ベージュのコート後">
-                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcr1.jpg"?>" alt="ベージュのコート着た女性">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm3.png"?>" alt="ベージュのコート着た女性">
                         </div>
                     </div>
                     <!-- 商品詳細 -->
@@ -32,7 +35,7 @@
                             COLOR:Camel
                         </p>
                         <div class="main-singleCollection__size">
-                            <select  id="size" name="size">
+                            <select id="size" name="size">
                                 <option value="">サイズを選択してください</option>
                                 <option value="xs">XS</option>
                                 <option value="s">S</option>
