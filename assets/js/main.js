@@ -120,32 +120,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const mouseStalker = document.querySelector('.mouseStalker');
     const mainSingleCollectionInner = document.querySelector('.main-singleCollection__inner');
 
-    let currentX = 0;
-    let currentY = 0;
+    let currentX = 0;//目標座標
+    let currentY = 0;//目標座標
 
-    let mouseX = 0;
-    let mouseY = 0;
-
+    //mainSingleCollectionInner内での在票の取得
     mainSingleCollectionInner.addEventListener('mousemove', (e) => {
 
         let mouseX = e.clientX;
         let mouseY = e.clientY;
 
+        //線形補間 mouseStalkerに座標登録
+        function animate() {
+
+            currentX += (mouseX - currentX) * 0.4;
+            currentY += (mouseY - currentY) * 0.4;
+
+            mouseStalker.style.transform = `translate(${currentX}px,${currentY}px)`;
+
+            requestAnimationFrame(animate);
+
+        }
+
+        animate();
+        
     });
-
-    function animate() {
-
-        currentX += (mouseX - currentX) * 0.4;
-        currentY += (mouseY - currentY) * 0.4;
-
-        mouseStalker.style.transform = `translate(${currentX}px,${currentY}px)`;
-
-        requestAnimationFrame(animate);
-
-    }
-
-    animate();
-
 
     mainSingleCollectionInner.addEventListener('mouseenter', () => {
 
@@ -159,14 +157,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     });
 
-    const inputCheckbox = document.querySelector('.input-checkbox');
-    const checkMark = document.querySelector('.checkMark');
-
-    console.log(inputCheckbox,checkMark);
-
-    inputCheckbox.addEventListener('click', () => {
-
-        checkMark.classList.toggle('is-show');
-        
-    });
 });
