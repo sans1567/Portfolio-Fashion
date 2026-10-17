@@ -6,11 +6,10 @@ header
 ⚪︎・スクロールしたらヘッダーのロゴが消える
 
 single-collection
-・mainImageに追従カーソル
+⚪︎・mainImageに追従カーソル
 ⚪︎・subImageクリックでmainImageに反映
 
 contact
-・それぞれのinputタグに文字制限 正しくしなかったらエラーメッセージ
 ・プライバシーポリシー チェックマーク　表示/非表示
 */
 
@@ -108,37 +107,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const singleCollectionMainImage = document.querySelector('.main-singleCollection__image--primary img');
     const singleCollectionSubImages = document.querySelectorAll('.main-singleCollection__image--secondary img');
 
-    console.log(singleCollectionMainImage,singleCollectionSubImages);
-
     singleCollectionSubImages.forEach((singleCollectionSubImage)=> {
+
         singleCollectionSubImage.addEventListener('click', () => {
+
             singleCollectionMainImage.src = singleCollectionSubImage.src;
+
         });
+
     });
 
     const mouseStalker = document.querySelector('.mouseStalker');
     const mainSingleCollectionInner = document.querySelector('.main-singleCollection__inner');
 
-    document.body.appendChild(mouseStalker);    
-
     let currentX = 0;
     let currentY = 0;
 
+    let mouseX = 0;
+    let mouseY = 0;
+
     mainSingleCollectionInner.addEventListener('mousemove', (e) => {
+
         let mouseX = e.clientX;
         let mouseY = e.clientY;
 
-        function animate() {
-            currentX += (mouseX - currentX) * 0.4;
-            currentY += (mouseY - currentY) * 0.4;
-    
-            mouseStalker.style.transform = `translate(${currentX}px,${currentY}px)`;
-    
-            requestAnimationFrame(animate);
-        }
-
-        animate();
     });
+
+    function animate() {
+
+        currentX += (mouseX - currentX) * 0.4;
+        currentY += (mouseY - currentY) * 0.4;
+
+        mouseStalker.style.transform = `translate(${currentX}px,${currentY}px)`;
+
+        requestAnimationFrame(animate);
+
+    }
+
+    animate();
 
 
     mainSingleCollectionInner.addEventListener('mouseenter', () => {
@@ -153,4 +159,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     });
 
+    const inputCheckbox = document.querySelector('.input-checkbox');
+    const checkMark = document.querySelector('.checkMark');
+
+    console.log(inputCheckbox,checkMark);
+
+    inputCheckbox.addEventListener('click', () => {
+
+        checkMark.classList.toggle('is-show');
+        
+    });
 });
