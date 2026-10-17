@@ -6,11 +6,11 @@ header
 ⚪︎・スクロールしたらヘッダーのロゴが消える
 
 single-collection
-⚪︎・mainImageに追従カーソル
-⚪︎・subImageクリックでmainImageに反映
+・mainImageに追従カーソル
+・subImageクリックでmainImageに反映
 
 contact
-・プライバシーポリシー チェックマーク　表示/非表示
+⚪︎・プライバシーポリシー チェックマーク　表示/非表示
 */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -117,44 +117,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     });
 
-    const mouseStalker = document.querySelector('.mouseStalker');
-    const mainSingleCollectionInner = document.querySelector('.main-singleCollection__inner');
+    const inputCheckbox = document.querySelector('.input-checkbox');
+    const checkMark = document.querySelector('.checkMark');
 
-    let currentX = 0;//目標座標
-    let currentY = 0;//目標座標
+    console.log(inputCheckbox,checkMark);
 
-    //mainSingleCollectionInner内での在票の取得
-    mainSingleCollectionInner.addEventListener('mousemove', (e) => {
+    inputCheckbox.addEventListener('click', () => {
 
-        let mouseX = e.clientX;
-        let mouseY = e.clientY;
-
-        //線形補間 mouseStalkerに座標登録
-        function animate() {
-
-            currentX += (mouseX - currentX) * 0.4;
-            currentY += (mouseY - currentY) * 0.4;
-
-            mouseStalker.style.transform = `translate(${currentX}px,${currentY}px)`;
-
-            requestAnimationFrame(animate);
-
-        }
-
-        animate();
-        
-    });
-
-    mainSingleCollectionInner.addEventListener('mouseenter', () => {
-
-        mouseStalker.classList.add('is-show');
+        checkMark.classList.toggle('is-show');
 
     });
-
-    mainSingleCollectionInner.addEventListener('mouseleave', () => {
-
-        mouseStalker.classList.remove('is-show');
-
-    });
-
+    
 });
