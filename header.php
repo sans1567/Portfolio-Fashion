@@ -41,7 +41,12 @@
                         <li><a href="<?php echo home_url('/contact/')?>">◻︎CONTACT</a></li>
                     </ul>
                 </div>
+                <div class="close-btn">
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
+            <div class="hamburger-menu__modal"></div>
         </header>
     </body>
 </html>

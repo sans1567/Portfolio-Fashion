@@ -17,30 +17,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const hamburgerBtn = document.querySelector('.hamburger-button');
     const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const hamburgerMenuModal = document.querySelector('.hamburger-menu__modal');
+    const closeBtn = document.querySelector('.close-btn');
 
     hamburgerBtn.addEventListener('click', () => {
 
-        hamburgerBtn.classList.toggle('is-active');
-        hamburgerMenu.classList.toggle('is-show');
+        hamburgerMenu.classList.add('is-slide');
+        hamburgerMenuModal.classList.add('is-slide');
 
     });
 
     const searchIcon = document.querySelector('.search-icon');
 
     searchIcon.addEventListener('click', () => {
-        hamburgerBtn.classList.toggle('is-active');
-        hamburgerMenu.classList.toggle('is-show');
 
-        if(hamburgerMenu.classList.contains('is-show')) {
-            closeBtn.classList.add('is-show');
+        hamburgerMenu.classList.add('is-slide');
+        hamburgerMenuModal.classList.add('is-slide');
 
-            closeBtn.addEventListener('click', () => {
-                hamburgerBtn.classList.remove('is-active');
-                hamburgerMenu.classList.remove('is-show');
-            })
-        } else {
-            closeBtn.classList.remove('is-show');
+    });
+
+    closeBtn.addEventListener('click', () => {
+
+        if(hamburgerMenu.classList.contains('is-slide') && hamburgerMenuModal.classList.contains('is-slide')) {
+
+            hamburgerMenu.classList.remove('is-slide');
+            hamburgerMenuModal.classList.remove('is-slide');
+
         }
+
     });
 
     const headerMenuSearch = document.querySelector('.header-menu__search');

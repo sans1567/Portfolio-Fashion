@@ -20,8 +20,21 @@
 }
 
 .search-icon {
-  width: 20px;
+  width: 25px;
   height: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.search-icon.is-active {
+    z-index: 4;
+}
+
+.search-icon:hover {
+  cursor: pointer;
 }
 
 .header-logo {
@@ -48,6 +61,11 @@
 .header-nav__list {
   display: flex;
   column-gap: 15px;
+
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
 }
 
 .header-nav__list li a {
@@ -85,10 +103,6 @@
   z-index: 2;
 }
 
-.hamburger-button.is-active {
-  z-index: 4;
-}
-
 .hamburger-button span:nth-child(2) {
   width: 100%;
   height: 2px;
@@ -108,34 +122,6 @@
   bottom: 0;
 }
 
-.hamburger-button.is-active span:nth-child(1) {
-  top: 49%;
-
-  transform: translateY(-50%) rotate(45deg);
-
-  transition: all .3s ease;
-
-  z-index: 4;
-}
-
-.hamburger-button.is-active span:nth-child(2) {
-  opacity: 0;
-
-  transition: all .3s ease;
-
-  z-index: 4;
-}
-
-.hamburger-button.is-active span:nth-child(3) {
-  bottom: 50%;
-
-  transform: translateY(50%) rotate(-45deg);
-
-  transition: all .3s ease;
-
-  z-index: 4;
-}
-
 .hamburger-menu {
   position: absolute;
   z-index: 3;
@@ -143,18 +129,58 @@
   top: 0px;
   left: 100vw;
 
-  width: 100vw;
+  width: 50vw;
   height: 100vh;
 
-  background-color: transparent;
+  background-color: rgba(0,0,0,0.9);
+
+  opacity: 0;
 
   transition: all .3s ease-out;
 }
 
-.hamburger-menu.is-show {
+.hamburger-menu.is-slide {
   left: 0vw;
 
-  background-color: rgba(0,0,0,0.8);
+  opacity: 1;
+}
+
+.close-btn {
+  width: 25px;
+  height: 20px;
+
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.close-btn:hover {
+  cursor: pointer;
+}
+
+.close-btn span:nth-child(1) {
+  width: 102%;
+  height: 2px;
+
+  background-color: #ffffff;
+
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.close-btn span:nth-child(2) {
+  width: 100%;
+  height: 2px;
+
+  background-color: #ffffff;
+
+  position: absolute;
+  bottom: 39%;
+  left: 0px;
+  transform: translateY(-50%) rotate(-45deg);
 }
 
 .hamburger-menu__list li {
@@ -205,12 +231,31 @@
   color: #ffffff;
 }
 
+.hamburger-menu__modal {
+  position: absolute;
+  z-index: 2;
+
+  top: 0px;
+  left: 100vw;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0,0,0,0.8);
+
+  opacity: 0;
+
+  transition: all .4s ease-out;
+}
+
+.hamburger-menu__modal.is-slide {
+  left: 0vw;
+
+  opacity: 1;
+}
+
 @media screen and (min-width: 768px) {
   .hamburger-button {
-    display: none;
-  }
-
-  .hamburger-menu {
     display: none;
   }
 }
