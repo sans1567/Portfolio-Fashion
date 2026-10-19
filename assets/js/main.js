@@ -121,15 +121,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
     });
 
+    const mainImageArea = document.querySelector('.main-singleCollection__ImageItem');
+    const mouseStalker = document.querySelector('.mouseStalker');
+
+    //ストーカーの現在地//
+    let currentX = 0;
+    let currentY = 0;
+
+    //マウスの座標//
+    let mouseX = 0;
+    let mouseY = 0;
+
+    //マウスの座標を取得
+    mainImageArea.addEventListener('mousemove', (e) => {
+
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+
+    });
+
+    function mouseAnimate() {
+
+        currentX += (mouseX - currentX) * 1;
+        currentY += (mouseY - currentY) * 1;
+
+        mouseStalker.style.transform = `translate(${currentX}px, ${currentY}px)`;
+
+        requestAnimationFrame(mouseAnimate);
+
+    };
+
+    mouseAnimate();
+
+    mainImageArea.addEventListener('mouseenter', () => {
+
+        mouseStalker.classList.remove('is-hidden');
+
+    });
+
+    mainImageArea.addEventListener('mouseleave', () => {
+
+        mouseStalker.classList.add('is-hidden');
+
+    });
+
     const inputCheckbox = document.querySelector('.input-checkbox');
     const checkMark = document.querySelector('.checkMark');
-
-    console.log(inputCheckbox,checkMark);
 
     inputCheckbox.addEventListener('click', () => {
 
         checkMark.classList.toggle('is-show');
 
     });
-    
+
 });
