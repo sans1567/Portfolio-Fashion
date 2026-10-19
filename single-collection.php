@@ -5,9 +5,6 @@
         <?php while(have_posts()) : the_post(); ?>
             <section class="main-singleCollection">
                 <div class="main-singleCollection__inner">
-                    <div class="mouseStalker">
-                        <span></span>
-                    </div>
                     <!--画像-->
                     <div class="main-singleCollection__ImageItem">
                         <div class="main-singleCollection__image--primary">
@@ -19,6 +16,7 @@
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm2.png"?>" alt="ベージュのコート後">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm3.png"?>" alt="ベージュのコート着た女性">
                         </div>
+                        <div class="mouseStalker"></div>
                     </div>
                     <!-- 商品詳細 -->
                     <div class="main-singleCollection__data">
