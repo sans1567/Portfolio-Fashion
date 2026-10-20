@@ -1,18 +1,3 @@
-/*
-header
-⚪︎・ハンバーガボタンクリック後ハンバーガーメニューの表示/非表示
-⚪︎・ハンバーガーメニューの３本線からバツに変わる
-⚪︎・ハンバーメニュー内inputタグの検索ヒット後テキスト表示
-⚪︎・スクロールしたらヘッダーのロゴが消える
-
-single-collection
-・mainImageに追従カーソル
-・subImageクリックでmainImageに反映
-
-contact
-⚪︎・プライバシーポリシー チェックマーク　表示/非表示
-*/
-
 document.addEventListener('DOMContentLoaded', () => {
 
     const hamburgerBtn = document.querySelector('.hamburger-button');
@@ -124,15 +109,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainImageArea = document.querySelector('.main-singleCollection__ImageItem');
     const mouseStalker = document.querySelector('.mouseStalker');
 
-    //ストーカーの現在地//
     let currentX = 0;
     let currentY = 0;
 
-    //マウスの座標//
     let mouseX = 0;
     let mouseY = 0;
 
-    //マウスの座標を取得
     mainImageArea.addEventListener('mousemove', (e) => {
 
         mouseX = e.clientX;

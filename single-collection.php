@@ -1,37 +1,45 @@
 <?php get_header()?>
 
 <main class="main">
+
     <?php if(have_posts()): ?>
         <?php while(have_posts()) : the_post(); ?>
+
+            <?php
+                $price = get_field('price');
+                $color = get_field('color');
+            ?>
+
             <section class="main-singleCollection">
                 <div class="main-singleCollection__inner">
-                    <!--画像-->
                     <div class="main-singleCollection__ImageItem">
                         <div class="main-singleCollection__image--primary">
-                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm1.png"?>" alt="ベージュのコート前">
+                            <img src="<?php echo esc_url(get_template_directory_uri() . "/assets/images/scm1.png")?>" alt="ベージュのコート前">
                         </div>
                         <div class="main-singleCollection__image--secondary">
-                            <!--サブの画像2枚-->
-                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm1.png"?>" alt="ベージュのコート前">
-                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm2.png"?>" alt="ベージュのコート後">
-                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/scm3.png"?>" alt="ベージュのコート着た女性">
+                            <img src="<?php echo esc_url(get_template_directory_uri() . "/assets/images/scm1.png")?>" alt="ベージュのコート前">
+                            <img src="<?php echo esc_url(get_template_directory_uri() . "/assets/images/scm2.png")?>" alt="ベージュのコート後">
+                            <img src="<?php echo esc_url(get_template_directory_uri() . "/assets/images/scm3.png")?>" alt="ベージュのコート着た女性">
                         </div>
                         <div class="mouseStalker"></div>
                     </div>
-                    <!-- 商品詳細 -->
                     <div class="main-singleCollection__data">
                         <h2 class="main-singleCollection__title">
-                            Relaxed Tailored Coat
+                            <?php echo esc_html(get_the_title());?>
                         </h2>
                         <p class="main-singleCollection__category">
                             CATEGORY:Outer
                         </p>
-                        <p class="main-singleCollection__price">
-                            PRICE:¥24,800
-                        </p>
-                        <p class="main-singleCollection__color">
-                            COLOR:Camel
-                        </p>
+                        <?php if($price !== null && $price !== '') : ?>
+                            <p class="main-singleCollection__price">
+                                PRICE:<?php  echo esc_html($price);?>
+                            </p>
+                        <?php endif;?>
+                        <?php if($color !== null && $color !== '') : ?>
+                            <p class="main-singleCollection__color">
+                                COLOR:<?php echo esc_html($color);?>
+                            </p>
+                        <?php endif;?>
                         <div class="main-singleCollection__size">
                             <select id="size" name="size">
                                 <option value="">サイズを選択してください</option>
@@ -42,14 +50,9 @@
                                 <option value="xl">XL</option>
                             </select>
                         </div>
-                        <p class="main-singleCollection__description">
-                            都会的なミニマルデザインが魅力のロングテーラードコート。<br>
-                            程よくゆとりのあるシルエットで、ニットやスウェットの
-                            上からでも快適に羽織れます。<br>
-                            上質なウールライク素材を採用し、軽やかな着心地と上品な風合いを両立。<br>
-                            カジュアルからビジネスカジュアルまで
-                            幅広いスタイリングに馴染み、長く愛用できる一着です。
-                        </p>
+                        <div class="main-singleCollection__description">
+                            <?php the_content();?>
+                        </div>
                         <a href="#" class="main-singleCollection__link">
                             SOLD OUT
                         </a>
@@ -65,36 +68,36 @@
                             関連商品
                         </p>
                         <div class="main-singleCollection__related-list">
-                            <a href="#" class="main-singleCollection__related-list__card">
-                                <div class="main-singleCollection__related-list__image">
-                                    <img src="<?php  echo get_template_directory_uri() . "/assets/images/scr1.jpg"?>" alt="黒のダブルのライダース">
+                            <a href="#" class="main-singleCollection__related-card">
+                                <div class="main-singleCollection__related-image">
+                                    <img src="<?php echo esc_url(get_template_directory_uri() . "/assets/images/scr1.jpg")?>" alt="黒のダブルのライダース">
                                 </div>
-                                <p class="main-singleCollection__related-list__prodactName">
+                                <p class="main-singleCollection__related-prodactName">
                                     Minimal Leather Jacket
                                 </p>
-                                <p class="main-singleCollection__related-list__prodactPrice">
+                                <p class="main-singleCollection__related-prodactPrice">
                                     ¥19,800 (SOLD OUT)
                                 </p>
                             </a>
-                            <a href="#" class="main-singleCollection__related-list__card">
-                                <div class="main-singleCollection__related-list__image">
-                                    <img src="<?php  echo get_template_directory_uri() . "/assets/images/scr2.jpg"?>" alt="肌色のスラックス">
+                            <a href="#" class="main-singleCollection__related-card">
+                                <div class="main-singleCollection__related-image">
+                                    <img src="<?php echo esc_url(get_template_directory_uri() . "/assets/images/scr2.jpg")?>" alt="肌色のスラックス">
                                 </div>
-                                <p class="main-singleCollection__related-list__prodactName">
+                                <p class="main-singleCollection__related-prodactName">
                                     Relax Wide Slacks
                                 </p>
-                                <p class="main-singleCollection__related-list__prodactPrice">
+                                <p class="main-singleCollection__related-prodactPrice">
                                     ¥9,800 (SOLD OUT)
                                 </p>
                             </a>
-                            <a href="#" class="main-singleCollection__related-list__card">
-                                <div class="main-singleCollection__related-list__image">
-                                    <img src="<?php  echo get_template_directory_uri() . "/assets/images/scr3.jpg"?>" alt="黒のボンバージャケット">
+                            <a href="#" class="main-singleCollection__related-card">
+                                <div class="main-singleCollection__related-image">
+                                    <img src="<?php echo esc_url(get_template_directory_uri() . "/assets/images/scr3.jpg")?>" alt="黒のボンバージャケット">
                                 </div>
-                                <p class="main-singleCollection__related-list__prodactName">
+                                <p class="main-singleCollection__related-prodactName">
                                     Minimal Bomber Jacket
                                 </p>
-                                <p class="main-singleCollection__related-list__prodactPrice">
+                                <p class="main-singleCollection__related-prodactPrice">
                                     ¥16,800 (SOLD OUT)
                                 </p>
                             </a>
@@ -102,8 +105,10 @@
                     </div>
                 </div>
             </section>
+
         <?endwhile; ?>
     <?php endif; ?>
+
 </main>
 
 <?php get_footer()?>
