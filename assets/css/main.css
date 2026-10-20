@@ -1380,7 +1380,7 @@ select {
   display: block;
 }
 
-.main-archiveCollection__prodactName {
+.main-archiveCollection__productName {
   padding-top: 10px;
   text-align: center;
   font-size: 12px;
@@ -1388,7 +1388,7 @@ select {
   color: #ffffff;
 }
 
-.main-archiveCollection__prodactPrice {
+.main-archiveCollection__productPrice {
   padding-bottom: 10px;
   text-align: center;
   font-size: 12px;
@@ -1400,10 +1400,10 @@ select {
   .main-archiveCollection__list {
     grid-template-columns: repeat(2, 1fr);
   }
-  .main-archiveCollection__prodactName {
+  .main-archiveCollection__productName {
     font-size: 10px;
   }
-  .main-archiveCollection__prodactPrice {
+  .main-archiveCollection__productPrice {
     font-size: 10px;
   }
 }

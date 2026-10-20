@@ -73,4 +73,8 @@
 
     add_action('init', 'portfolio_register_post_types');
 
+    add_action('after_setup_theme', function() {
+        add_theme_support('post-thumbnails');
+    });
+
 ?>
