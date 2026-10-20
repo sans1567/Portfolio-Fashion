@@ -19,10 +19,6 @@
 
     add_action('wp_enqueue_scripts', 'portfolio_fashion_enqueue_scripts');
 
-    add_action('wp_body_open', function(){
-        //挿入したいソースコード記述//
-    });
-
     function portfolio_register_post_types() {
 
         register_post_type('collection', [
@@ -40,6 +36,7 @@
                 'title',
                 'editor',
                 'thumbnail',
+                'custom-fields',
             ],
 
             'rewrite' => [
@@ -75,4 +72,5 @@
     }
 
     add_action('init', 'portfolio_register_post_types');
+
 ?>
