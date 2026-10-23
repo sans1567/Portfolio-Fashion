@@ -15,6 +15,7 @@
                 最新のコレクション
             </p>
             <div class="main-archiveCollection__list">
+                <?php while(have_posts()) : the_post();?>
                 <a href="<?php echo esc_url(get_permalink(13));?>" class="main-archiveCollection__card">
                     <div class="main-archiveCollection__image">
                         <?php the_post_thumbnail(13,'large');?>
@@ -28,6 +29,7 @@
                         </p>  
                     <?php endif;?>
                 </a>
+                <?php endwhile;?>
 
                 <a href="#" class="main-archiveCollection__card">
                     <div class="main-archiveCollection__image">

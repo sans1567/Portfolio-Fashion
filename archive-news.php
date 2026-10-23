@@ -10,18 +10,19 @@
                 最新ニュースと更新情報
             </p>
             <div class="main-archiveNews__list">
-                <a href="<?php echo esc_url(get_permalink(17));?>" class="main-archiveNews__card">
+                <?php while(have_posts()) : the_post();?>
+                <a href="<?php echo esc_url(get_permalink(36));?>" class="main-archiveNews__card">
                     <div class="main-archiveNews__image">
-                        <img src="<?php echo get_template_directory_uri() . "/assets/images/news1.jpg"?>" alt="3人の女性が街中を歩いている">
+                        <?php the_post_thumbnail('large');?>
                     </div>
                     <p class="main-archiveNews__date">
                         2026.06.01
                     </p>
                     <p class="main-archiveNews__newsTitle">
-                        SPRING COLLECTiON 2026
-                    </p>  
+                        <?php the_title();?>
+                    </p> 
                 </a>
-
+                <?php endwhile;?>
                 <a href="#" class="main-archiveNews__card">
                     <div class="main-archiveNews__image">
                         <img src="<?php echo get_template_directory_uri() . "/assets/images/news2.jpg"?>" alt="白シャツであぐらを描いている女性">
