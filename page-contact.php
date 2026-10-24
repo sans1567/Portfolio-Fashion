@@ -3,9 +3,14 @@
 <main class="main">
     <section class="contact">
         <div class="contact__inner">
-            <p class="contact__text">
-                当社の製品についてご質問がございましたら、お気軽にお問い合わせください。
-            </p>
+
+            <?php while(have_posts()) : the_post();?>
+
+            <div class="contact__text">
+                <?php the_content();?>
+            </div>
+
+            <?php endwhile;?>
 
             <form class="contact__form" action="" method="">
                 <div class="contact__field contact__nameField">
