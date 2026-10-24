@@ -13,7 +13,7 @@
                 お探しのページは見つかりませんでした。<br>
                 ページが削除または移動された可能性があります。
             </p>
-            <a href="<?php echo home_url('/');?>" class="main-404__link">
+            <a href="<?php echo esc_url(home_url('/'));?>" class="main-404__link">
                 TOP
             </a>
         </div>
