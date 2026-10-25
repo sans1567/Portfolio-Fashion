@@ -1182,7 +1182,7 @@ select {
   background-color: rgba(0, 0, 0, 0.1);
   display: grid;
   place-items: center;
-  cursor: none;
+  cursor: pointer;
 }
 
 .main-singleCollection__link:hover {
