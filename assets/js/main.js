@@ -115,45 +115,53 @@ document.addEventListener('DOMContentLoaded', () => {
     let mouseX = 0;
     let mouseY = 0;
 
-    mainImageArea.addEventListener('mousemove', (e) => {
+    if(mainImageArea && mouseStalker) {
 
-        mouseX = e.clientX;
-        mouseY = e.clientY;
+        mainImageArea.addEventListener('mousemove', (e) => {
 
-    });
-
-    function mouseAnimate() {
-
-        currentX += (mouseX - currentX) * 1;
-        currentY += (mouseY - currentY) * 1;
-
-        mouseStalker.style.transform = `translate(${currentX}px, ${currentY}px)`;
-
-        requestAnimationFrame(mouseAnimate);
-
-    };
-
-    mouseAnimate();
-
-    mainImageArea.addEventListener('mouseenter', () => {
-
-        mouseStalker.classList.remove('is-hidden');
-
-    });
-
-    mainImageArea.addEventListener('mouseleave', () => {
-
-        mouseStalker.classList.add('is-hidden');
-
-    });
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+    
+        });
+    
+        function mouseAnimate() {
+    
+            currentX += (mouseX - currentX) * 1;
+            currentY += (mouseY - currentY) * 1;
+    
+            mouseStalker.style.transform = `translate(${currentX}px, ${currentY}px)`;
+    
+            requestAnimationFrame(mouseAnimate);
+    
+        };
+    
+        mouseAnimate();
+    
+        mainImageArea.addEventListener('mouseenter', () => {
+    
+            mouseStalker.classList.remove('is-hidden');
+    
+        });
+    
+        mainImageArea.addEventListener('mouseleave', () => {
+    
+            mouseStalker.classList.add('is-hidden');
+    
+        });
+        
+    }
 
     const inputCheckbox = document.querySelector('.input-checkbox');
     const checkMark = document.querySelector('.checkMark');
 
-    inputCheckbox.addEventListener('click', () => {
+    if(inputCheckbox && checkMark) {
 
-        checkMark.classList.toggle('is-show');
+        inputCheckbox.addEventListener('click', () => {
 
-    });
+            checkMark.classList.toggle('is-show');
+    
+        });
+        
+    }
 
 });
