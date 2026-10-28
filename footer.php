@@ -8,7 +8,7 @@
     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-logo">
-                <a href="<?php echo home_url('/')?>">Portfolio-Fashion</a>
+                <a href="<?php echo home_url('/')?>">PORTFOLIO-FASHION</a>
             </div>
             <nav class="footer-nav">
                 <ul class="footer-nav__list">
