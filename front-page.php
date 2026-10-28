@@ -5,7 +5,7 @@
 
         <section class="main-visual">
             <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__title">
-                SPLING/SUMMER&nbsp;2026
+                SPLING&nbsp;SUMMER&nbsp;2026
             </a>
             <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__link">
                 ▶︎最新コレクションを確認する
@@ -26,60 +26,56 @@
             <h2 class="main-collection__title">
                 COLLECTION
             </h2>
-            <p class="main-collection__text">
+            <p class="main-collection__text"> 
                 2026年最新レディースコレクション
             </p>
 
             <div class="main-collection__newProduct-list">
-                <div class="main-collection__newProduct-list__card">
-                    <div class="main-collection__newProduct-list__image">
-                        <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf1.jpg"?>" alt="ベージュのスーツを着た女性">
+                <div class="main-collection__newProduct-inner">
+                    <div class="main-collection__newProduct-list__card">
+                        <div class="main-collection__newProduct-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf1.jpg"?>" alt="ベージュのスーツを着た女性">
+                            <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
+                        </div>
+                        <div class="main-collection__newProduct-list__items">
+                            <h3 class="main-collection__newProduct-list__title">
+                                NEW&nbsp;OUTER
+                            </h3>
+                            <p class="main-collection__newProduct-list__text">
+                                洗練されたシルエットで、装いを引き締める。<br>
+                                日常に自然と馴染む、ミニマルなアウターコレクション。
+                            </p>
+                        </div>
                     </div>
-                    <div class="main-collection__newProduct-list__items">
-                        <h3 class="main-collection__newProduct-list__title">
-                            NEW&nbsp;OUTER
-                        </h3>
-                        <p class="main-collection__newProduct-list__text">
-                            洗練されたシルエットで、装いを引き締める。<br>
-                            日常に自然と馴染む、ミニマルなアウターコレクション。
-                        </p>
-                        <a class="main-collection__newProduct-list__link" href="#">
-                            Coming Soon
-                        </a>
+                    <div class="main-collection__newProduct-list__card">
+                        <div class="main-collection__newProduct-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf2.jpg"?>" alt="白いTシャツを着た女性">
+                            <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
+                        </div>
+                        <div class="main-collection__newProduct-list__items">
+                            <h3 class="main-collection__newProduct-list__title">
+                                NEW&nbsp;TOPS
+                            </h3>
+                            <p class="main-collection__newProduct-list__text">
+                                シンプルだからこそ、素材とシルエットにこだわる。<br>
+                                一枚でスタイルが整う、タイムレスなトップス。
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="main-collection__newProduct-list__card">
-                    <div class="main-collection__newProduct-list__image">
-                        <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf2.jpg"?>" alt="白いTシャツを着た女性">
-                    </div>
-                    <div class="main-collection__newProduct-list__items">
-                        <h3 class="main-collection__newProduct-list__title">
-                            NEW&nbsp;TOPS
-                        </h3>
-                        <p class="main-collection__newProduct-list__text">
-                            シンプルだからこそ、素材とシルエットにこだわる。<br>
-                            一枚でスタイルが整う、タイムレスなトップス。
-                        </p>
-                        <a class="main-collection__newProduct-list__link" href="#">
-                            Coming Soon
-                        </a>
-                    </div>
-                </div>
-                <div class="main-collection__newProduct-list__card">
-                    <div class="main-collection__newProduct-list__image">
-                        <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf3.jpg"?>" alt="白いTシャツを着た女性">
-                    </div>
-                    <div class="main-collection__newProduct-list__items">
-                        <h3 class="main-collection__newProduct-list__title">
-                            NEW&nbsp;BOTTOMS
-                        </h3>
-                        <p class="main-collection__newProduct-list__text">
-                            美しいラインと心地よさを両立。<br>
-                            毎日のスタイリングに寄り添う、洗練されたボトムス。
-                        </p>
-                        <a class="main-collection__newProduct-list__link" href="#">
-                            Coming Soon
-                        </a>
+                    <div class="main-collection__newProduct-list__card">
+                        <div class="main-collection__newProduct-list__image">
+                            <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf3.jpg"?>" alt="白いTシャツを着た女性">
+                            <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
+                        </div>
+                        <div class="main-collection__newProduct-list__items">
+                            <h3 class="main-collection__newProduct-list__title">
+                                NEW&nbsp;BOTTOMS
+                            </h3>
+                            <p class="main-collection__newProduct-list__text">
+                                美しいラインと心地よさを両立。<br>
+                                毎日のスタイリングに寄り添う、洗練されたボトムス。
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,7 +102,7 @@
                                 シンプルながらも存在感があり、日常のスタイリングに上品さをプラスします。<br>
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
-                                Coming Soon
+                                ▶︎Coming Soon
                             </a>
                         </div>
                     </div>
@@ -123,7 +119,7 @@
                                 自然な抜け感が、洗練されたスタイルを演出します。
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
-                                Coming Soon
+                                ▶︎Coming Soon
                             </a>
                         </div>
                     </div>
@@ -140,7 +136,7 @@
                                 程よいゆとりが、上品で洗練された着こなしを演出します。
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
-                                Coming Soon
+                                ▶︎Coming Soon
                             </a>
                         </div>
                     </div>
@@ -240,9 +236,6 @@
                     モノトーンを基調に、余白や写真の見せ方を意識し、<br>
                     商品そのものが引き立つシンプルなデザインに仕上げました。
                 </p>
-                <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-about__link">
-                    ▶︎最新コレクションを確認する
-                </a>
             </div>
             <div class="main-about__bar"></div> 
         </section>

@@ -15,7 +15,7 @@
                     <img src="<?php echo get_template_directory_uri() . "/assets/images/search-icon.svg"?>" alt="検索アイコン">
                 </div>
                 <h1 class="header-logo">
-                    <a href="<?php echo home_url('/')?>">Portfolio-Fashion</a>
+                    <a href="<?php echo home_url('/')?>">PORTFORIO-FASHION</a>
                 </h1>
                 <nav class="header-nav">
                     <ul class="header-nav__list">
