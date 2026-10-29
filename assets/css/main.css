@@ -84,13 +84,11 @@ select {
 }
 
 .header-logo {
-  width: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  transition: all 0.3s linear;
   z-index: 2;
-  text-align: center;
+  transition: all 0.3s linear;
 }
 
 .header-logo.is-hidden {
@@ -130,6 +128,7 @@ select {
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
+  z-index: 2;
 }
 
 .hamburger-button:hover {
@@ -142,7 +141,6 @@ select {
   background-color: #ffffff;
   position: absolute;
   top: 0;
-  z-index: 2;
 }
 
 .hamburger-button span:nth-child(2) {
@@ -186,6 +184,7 @@ select {
   top: 22px;
   right: 20px;
   transform: translateY(-50%);
+  z-index: 3;
 }
 
 .close-btn:hover {
@@ -215,6 +214,7 @@ select {
 .hamburger-menu__list li {
   margin-top: 20px;
   margin-left: 20px;
+  padding-right: 20px;
 }
 
 .hamburger-menu__list li:nth-child(1) {
@@ -242,12 +242,13 @@ select {
 }
 
 .hamburger-menu__list li input {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   height: 26px;
   margin-left: 10px;
   padding-top: 5px;
-  padding-left: 5px;
-  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-bottom: 3px;
   outline: none;
   background-color: #000000;
   border: 1px solid #ffffff;
