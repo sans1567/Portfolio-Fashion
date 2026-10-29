@@ -4,9 +4,6 @@
     <div class="main-inner">
 
         <section class="main-visual">
-            <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__title">
-                SPLING&nbsp;SUMMER&nbsp;2026
-            </a>
             <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__link">
                 ▶︎最新コレクションを確認する
             </a>
@@ -42,7 +39,8 @@
                                 NEW&nbsp;OUTER
                             </h3>
                             <p class="main-collection__newProduct-list__text">
-                                洗練されたシルエットで、装いを引き締める。<br>
+                                洗練されたシルエットで、<br>
+                                装いを引き締める。<br>
                                 日常に自然と馴染む、ミニマルなアウターコレクション。
                             </p>
                         </div>
@@ -57,7 +55,8 @@
                                 NEW&nbsp;TOPS
                             </h3>
                             <p class="main-collection__newProduct-list__text">
-                                シンプルだからこそ、素材とシルエットにこだわる。<br>
+                                シンプルだからこそ、<br>
+                                素材とシルエットにこだわる。<br>
                                 一枚でスタイルが整う、タイムレスなトップス。
                             </p>
                         </div>
@@ -73,10 +72,19 @@
                             </h3>
                             <p class="main-collection__newProduct-list__text">
                                 美しいラインと心地よさを両立。<br>
-                                毎日のスタイリングに寄り添う、洗練されたボトムス。
+                                毎日のスタイリングに寄り添う、<br>
+                                洗練されたボトムス。
                             </p>
                         </div>
                     </div>
+                </div>
+                <div class="main-collection__newProduct-description">
+                    <h3>TIMELESS ELEGANCE</h3>
+                    <p>
+                        シンプルな美しさと、洗練されたシルエット。<br>
+                        日常に自然と溶け込む、2026年最新レディースコレクション。<br>
+                        飾らない上品さと心地よさを大切に、自分らしいスタイルを提案します。<br>
+                    </p>
                 </div>
             </div>
 
