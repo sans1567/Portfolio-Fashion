@@ -5,7 +5,7 @@
 
         <section class="main-visual">
             <a href="<?php echo esc_url(get_post_type_archive_link('collection')); ?>" class="main-visual__link">
-                ▶︎最新コレクションを確認する
+                最新コレクションを確認する
             </a>
             <div class="main-visual__item--collection">
                 <div class="main-visual__image">
@@ -110,7 +110,7 @@
                                 シンプルながらも存在感があり、日常のスタイリングに上品さをプラスします。<br>
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
-                                ▶︎Coming Soon
+                                Coming Soon
                             </a>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                                 自然な抜け感が、洗練されたスタイルを演出します。
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
-                                ▶︎Coming Soon
+                                Coming Soon
                             </a>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                                 程よいゆとりが、上品で洗練された着こなしを演出します。
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
-                                ▶︎Coming Soon
+                                Coming Soon
                             </a>
                         </div>
                     </div>
