@@ -91,6 +91,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
+    const newProductDescription = document.querySelector('.main-collection__newProduct-description');
+
+    if(newProductDescription) {
+
+        function fadeAnimation(entries) {
+
+            entries.forEach((entry) => {
+
+                if(entry.isIntersecting) {
+
+                    newProductDescription.classList.add('is-show');
+
+                }
+
+            });
+            
+        };
+
+        const observer = new IntersectionObserver(fadeAnimation);
+
+        observer.observe(newProductDescription); 
+    };   
+
     window.addEventListener('scroll', headerLogoHidden);
 
     const singleCollectionMainImage = document.querySelector('.main-singleCollection__image--primary img');
