@@ -112,7 +112,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const observer = new IntersectionObserver(fadeAnimation);
 
         observer.observe(newProductDescription); 
-    };   
+    };
+
+    const newEssentialItemDescription = document.querySelector('.main-collection__essential-list-description');
+
+    if(newEssentialItemDescription) {
+
+        function fadeAnimation(entries) {
+
+            entries.forEach((entry) => {
+
+                if(entry.isIntersecting) {
+
+                    newEssentialItemDescription.classList.add('is-show');
+
+                }
+
+            });
+            
+        };
+
+        const observer = new IntersectionObserver(fadeAnimation);
+
+        observer.observe(newEssentialItemDescription); 
+    };
 
     window.addEventListener('scroll', headerLogoHidden);
 

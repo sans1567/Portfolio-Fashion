@@ -32,7 +32,6 @@
                     <div class="main-collection__newProduct-list__card">
                         <div class="main-collection__newProduct-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf1.jpg"?>" alt="ベージュのスーツを着た女性">
-                            <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
                         </div>
                         <div class="main-collection__newProduct-list__items">
                             <h3 class="main-collection__newProduct-list__title">
@@ -43,12 +42,12 @@
                                 装いを引き締める。<br>
                                 日常に自然と馴染む、ミニマルなアウターコレクション。
                             </p>
+                            <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
                         </div>
                     </div>
                     <div class="main-collection__newProduct-list__card">
                         <div class="main-collection__newProduct-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf2.jpg"?>" alt="白いTシャツを着た女性">
-                            <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
                         </div>
                         <div class="main-collection__newProduct-list__items">
                             <h3 class="main-collection__newProduct-list__title">
@@ -59,12 +58,12 @@
                                 素材とシルエットにこだわる。<br>
                                 一枚でスタイルが整う、タイムレスなトップス。
                             </p>
+                            <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
                         </div>
                     </div>
                     <div class="main-collection__newProduct-list__card">
                         <div class="main-collection__newProduct-list__image">
                             <img src="<?php  echo get_template_directory_uri() . "/assets/images/mcf3.jpg"?>" alt="白いTシャツを着た女性">
-                            <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
                         </div>
                         <div class="main-collection__newProduct-list__items">
                             <h3 class="main-collection__newProduct-list__title">
@@ -76,6 +75,7 @@
                                 洗練されたボトムス。
                             </p>
                         </div>
+                        <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
                     </div>
                 </div>
                 <div class="main-collection__newProduct-description">
@@ -148,6 +148,14 @@
                             </a>
                         </div>
                     </div>
+                </div>
+                <div class="main-collection__essential-list-description">
+                    <h3>BEYOND THE ORDINARY</h3>
+                    <p>
+                        ありふれた日常に、静かな存在感を。<br>
+                        余白を楽しみ、シルエットで魅せる。<br>
+                        自分らしさを纏う、新たなスタンダード。<br>
+                    </p>
                 </div>
             </div>
 
