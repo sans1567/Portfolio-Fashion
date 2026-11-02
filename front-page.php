@@ -70,9 +70,8 @@
                                 NEW&nbsp;BOTTOMS
                             </h3>
                             <p class="main-collection__newProduct-list__text">
-                                美しいラインと心地よさを両立。<br>
                                 毎日のスタイリングに寄り添う、<br>
-                                洗練されたボトムス。
+                                美しいラインと心地よさを両立したボトムス。<br>
                             </p>
                         </div>
                         <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
@@ -81,12 +80,30 @@
                 <div class="main-collection__newProduct-description">
                     <h3>TIMELESS ELEGANCE</h3>
                     <p>
-                        シンプルな美しさと、洗練されたシルエット。<br>
-                        日常に自然と溶け込む、2026年最新レディースコレクション。<br>
-                        飾らない上品さと心地よさを大切に、自分らしいスタイルを提案します。<br>
+                        2026年最新レディースコレクションは飾らない上品さと心地よさを大切にし、<br>
+                        日常に自然と溶け込む、自分らしいスタイルを提案します。<br>
                     </p>
                 </div>
             </div>
+
+            <section class="brand-movie">
+                <video
+                    class="brand-movie__video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="<?php echo esc_url(get_template_directory_uri() . '/assets/images/movie-poster.jpg'); ?>"
+                >
+                    <source src="<?php echo esc_url(get_template_directory_uri() . '/assets/videos/fashion.mp4'); ?>" type="video/mp4">
+                </video>
+
+                <div class="brand-movie__content">
+                    <h2>THE ART OF SIMPLICITY</h2>
+                    <p>美しさは、余白に宿る。</p>
+                </div>
+            </section>
 
             <div class="main-collection__essential-list">
                 <h2 class="main-collection__essential-list__title">
@@ -107,7 +124,7 @@
                             </h3>
                             <p class="main-collection__essential-list__card-text">
                                 ミニマルなデザインが魅力の定番アウター。<br>
-                                シンプルながらも存在感があり、日常のスタイリングに上品さをプラスします。<br>
+                                日常のスタイリングに上品さをプラスします。<br>
                             </p>
                             <a class="main-collection__essential-list__link" href="#">
                                 Coming Soon
