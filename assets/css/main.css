@@ -523,6 +523,8 @@ select {
 .main-collection__newProduct-list {
   width: 100%;
   margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 80px;
   border-bottom: 1px solid #ffffff;
 }
@@ -533,8 +535,6 @@ select {
   justify-content: space-between;
   column-gap: 20px;
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
   overflow: hidden;
 }
 
@@ -552,6 +552,10 @@ select {
   object-fit: cover;
 }
 
+.main-collection__newProduct-list__items {
+  position: relative;
+}
+
 .main-collection__newProduct-list__title {
   margin-top: 20px;
   font-weight: normal;
@@ -567,7 +571,7 @@ select {
 }
 
 .main-collection__newProduct-list__link {
-  width: 210px;
+  width: 100%;
   height: 40px;
   margin: 60px auto 0px;
   font-size: 12px;
