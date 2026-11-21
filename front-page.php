@@ -39,8 +39,7 @@
                             </h3>
                             <p class="main-collection__newProduct-list__text">
                                 洗練されたシルエットで、<br>
-                                装いを引き締める。<br>
-                                日常に自然と馴染む、ミニマルなアウターコレクション。
+                                日常に自然と馴染む<br>ミニマルなアウターコレクション。
                             </p>
                             <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
                         </div>
@@ -54,9 +53,8 @@
                                 NEW&nbsp;TOPS
                             </h3>
                             <p class="main-collection__newProduct-list__text">
-                                シンプルだからこそ、<br>
-                                素材とシルエットにこだわる。<br>
-                                一枚でスタイルが整う、タイムレスなトップス。
+                                素材とシルエットにこだわった<br>
+                                一枚でスタイルが整う<br>タイムレスなトップス。
                             </p>
                             <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>
                         </div>
@@ -71,7 +69,8 @@
                             </h3>
                             <p class="main-collection__newProduct-list__text">
                                 毎日のスタイリングに寄り添う、<br>
-                                美しいラインと心地よさを両立したボトムス。<br>
+                                美しいラインと心地よさを<br>
+                                両立したボトムス。<br>
                             </p>
                         </div>
                         <a class="main-collection__newProduct-list__link" href="#">Coming Soon</a>

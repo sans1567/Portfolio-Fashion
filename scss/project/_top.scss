@@ -116,6 +116,8 @@
     width: 100%;
 
     margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 80px;
 
     border-bottom: 1px solid #ffffff;
@@ -128,10 +130,6 @@
     column-gap: 20px;
 
     width: 100%;
-
-    padding-left: 20px;
-    padding-right: 20px;
-
     overflow: hidden;
 }
 
@@ -148,6 +146,10 @@
     height: 100%;
 
     object-fit: cover;
+}
+
+.main-collection__newProduct-list__items {
+    position: relative;
 }
 
 .main-collection__newProduct-list__title {
@@ -167,7 +169,7 @@
 }
 
 .main-collection__newProduct-list__link {
-    width: 210px;
+    width: 100%;
     height: 40px;
 
     margin: 60px auto 0px;
